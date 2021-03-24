@@ -1,0 +1,2 @@
+Maroon : #520000
+btn:hover - Orange : #ff5e14
