@@ -1,13 +1,16 @@
 {
-    "VISION":"This is my vision",
-    "MISSION":"This is my mission",
+    "VISION":"Producing a noble citizen to the nation who could face the challenges of the modern era with self confidence.",
+    "MISSION":"Creating an eminent citizen through the competency based education under the National Educational Goals, fully concerned of ability wisdom trait and creativity gifted with knowledge, skills, attitudes and practice implementing the total curriculum of the school.",
     "NEWS1_HEADING":"NEWS NO 1.",
     "NEWS1_DETAILS":"News 01 details" ,
     "NEWS2_HEADING":"NEWS NO 2.",
     "NEWS2_DETAILS":"News 02 details" ,
     "NEWS3_HEADING":"NEWS NO 3.",
     "NEWS3_DETAILS":"News 03 details",
-    "STUDENTS":2500,
-    "TEACHERS":86,
-    "STAFFS":12
- }
+    "STUDENTS":"0000",
+    "TEACHERS":"75",
+    "STAFFS":"05",
+    "ABOUT_HEADING":"ABOUT OUR SCHOOL",
+    "ABOUT_DETAILS":"About school paragraph",
+    "SCHOOLMAP_HEADING":"OUR SCHOOL"
+}
