@@ -79,7 +79,7 @@
                                     G.C.E O/L RESULTS
                                 </a>
                                 <a class="text-primary dropdown-item display-4" href="scholarship_results.html" aria-expanded="false">
-                                    GRADE 5 SCHOLOARSHIP RESULTS
+                                    GRADE 5 SCHOLARSHIP RESULTS
                                 </a>
                                 <a class="text-primary dropdown-item display-4" href="git_results.html" aria-expanded="false">
                                     G.I.T RESULTS
@@ -163,7 +163,7 @@
         </nav>
     </section>
 
-    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
+    <div class="content2" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
         <div class="quiz-window">
             <div class="quiz-window-header">
                 <div class="quiz-window-title">
@@ -173,10 +173,10 @@
             <div class="quiz-window-body">
                 <div class="gui-window-awards">
                     <ul class="guiz-awards-row guiz-awards-header">
-                        <li class="guiz-awards-header-star">&nbsp;</li>
+                        <li class="guiz-awards-header-star2">&nbsp;</li>
                         <li class="guiz-awards-header-title">Name</li>
-                        <li class="guiz-awards-header-track">Stream</li>
-                        <li class="guiz-awards-header-time">Year</li>
+                        <li class="guiz-awards-header-track3">Stream</li>
+                        <li class="guiz-awards-header-time2">Year</li>
                     </ul>
                     <ul class="guiz-awards-row guiz-awards-row-even" id="studentsBody"></ul>
                 </div>
@@ -273,12 +273,12 @@
                     var body = "";
 
                     for(let i = 0; i < result.length; i++){
-                        body = body + "<li class=\"guiz-awards-star\"><span class=\"star goldstar\">" + "<p class=\"num\">" + result[i].NO + "</p>" + "</span></li>" + 
-                        "<li class=\"guiz-awards-title\" id=\"name\">" + result[i].NAME + 
-                        "<div class=\"guiz-awards-subtitle\" id=\"university\">" + result[i].UNIVERSITY + "</div>" + 
+                        body = body + "<li class=\"guiz-awards-star2\"><span class=\"star goldstar\">" + "<p class=\"num\">" + result[i].NO + "</p>" + "</span></li>" + 
+                        "<li class=\"guiz-awards-title\">" + result[i].NAME + 
+                        "<div class=\"guiz-awards-subtitle\">" + result[i].UNIVERSITY + "</div>" + 
                         "</li>" + 
-                        "<li class=\"guiz-awards-track\" id=\"steam\">" + result[i].STREAM + "</li>" + 
-                        "<li class=\"guiz-awards-time\" id=\"year\">" + result[i].YEAR + "</li>";
+                        "<li class=\"guiz-awards-track3 text-center\">" + result[i].STREAM + "</li>" + 
+                        "<li class=\"guiz-awards-time2\">" + result[i].YEAR + "</li>";
                     }
 
                     document.getElementById("studentsBody").innerHTML = body;

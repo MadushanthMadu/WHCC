@@ -1,0 +1,14 @@
+[
+    {
+        "IMAGE":"img/union.jpg",
+        "NAME":"STAFF 1",
+        "GRADE":"GRADE 1",
+        "SUBJECT":"SUBJECT 1"
+    },
+    {
+        "IMAGE":"img/union.jpg",
+        "NAME":"STAFF 2",
+        "GRADE":"GRADE 2",
+        "SUBJECT":"SUBJECT 2"
+    }
+]

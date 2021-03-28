@@ -1,0 +1,14 @@
+[
+    {
+        "YEAR": "2020",
+        "TOTAL":"110",
+        "PASS":"100",
+        "PERCENTAGE":"98%"
+    },
+    {
+        "YEAR": "2019",
+        "TOTAL":"100",
+        "PASS":"50",
+        "PERCENTAGE":"50%"
+    }
+]
