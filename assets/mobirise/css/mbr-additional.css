@@ -1025,9 +1025,14 @@ a {
   transition: all .3s;
   border-bottom: 1px solid transparent;
 }
-.cid-s48OLK6784 .navbar:not(.navbar-short) {
-  /* border-bottom: #797979 1px; */
+
+@media (max-width:992px) {
+  .cid-s48OLK6784 .navbar:not(.navbar-short) {
+    background-color: rgb(255, 255, 255,0.15);
+    backdrop-filter: blur(4px);
+  }
 }
+
 .cid-s48OLK6784 .navbar.opened {
   transition: all .3s;
 }
