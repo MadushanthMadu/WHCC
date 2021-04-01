@@ -967,6 +967,9 @@ section.menu.cid-s48OLK6784.sticky {
   .card {
     padding: 50px;
   }
+  .card2 {
+    margin: 50px !important;
+  }
 }
 
 @media (max-width:991px) {
@@ -976,7 +979,7 @@ section.menu.cid-s48OLK6784.sticky {
 }
 
 .card2 {
-  margin: 50px;
+  margin: 25px;
   background-color: rgb(231, 231, 231);
   box-shadow: silver 3px 3px 3px;
   width: 180px;
@@ -1610,11 +1613,13 @@ color: #878787;
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 div.study_tools a img {
-  width: 40% !important;
+  /* width: 45% !important; */
+  width: 150px !important;
 }
 
 div.study_tools a img:hover {
-  transform: scale(1.3) rotate3d(2, 8, 1, 45deg);
+  /* transform: scale(1.3) rotate3d(2, 8, 1, 45deg); */
+  transform: scale(1.3);
 }
 
 div.study_tools .row > [class*=col] {
