@@ -10,5 +10,11 @@
         "NAME":"STAFF 2",
         "GRADE":"GRADE 2",
         "SUBJECT":"SUBJECT 2"
+    },
+    {
+        "IMAGE":"img/union.jpg",
+        "NAME":"STAFF 2",
+        "GRADE":"GRADE 2",
+        "SUBJECT":"SUBJECT 2"
     }
 ]

@@ -709,6 +709,10 @@ input[type=range] {
   right: 1rem;
 }
 
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer !important;
+}
+
 .card-img {
   width: auto;
 }

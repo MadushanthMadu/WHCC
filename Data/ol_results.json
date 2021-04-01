@@ -1,14 +1,56 @@
-[
-    {
-        "YEAR": "2020",
-        "TOTAL":"110",
-        "PASS":"100",
-        "PERCENTAGE":"98%"
-    },
-    {
-        "YEAR": "2019",
+[ 
+    { 
+        "YEAR": "2017", 
+        "TOTAL":"98", 
+        "PASS":"90", 
+        "PERCENTAGE":"92%" 
+    }, 
+    { 
+        "YEAR":"2016", 
+        "TOTAL":"81", 
+        "PASS":"72", 
+        "PERCENTAGE":"89%" 
+    }, 
+    { 
+        "YEAR":"2015", 
         "TOTAL":"100",
-        "PASS":"50",
-        "PERCENTAGE":"50%"
-    }
+        "PASS":"45",
+        "PERCENTAGE":"45%"
+    }, 
+    { 
+        "YEAR": "2014", 
+        "TOTAL":"92", 
+        "PASS":"55",
+        "PERCENTAGE":"60%" 
+    }, 
+    { 
+        "YEAR": "2013", 
+        "TOTAL":"103", 
+        "PASS":"87", 
+        "PERCENTAGE":"84%"
+    }, 
+    { 
+        "YEAR": "2012", 
+        "TOTAL":"108", 
+        "PASS":"71", 
+        "PERCENTAGE":"66%"
+    }, 
+    { 
+        "YEAR":"2011", 
+        "TOTAL":"119", 
+        "PASS":"77", 
+        "PERCENTAGE":"65%" 
+    }, 
+    { 
+        "YEAR": "2010", 
+        "TOTAL":"133",
+        "PASS":"100", 
+        "PERCENTAGE":"75%" 
+    }, 
+    { 
+        "YEAR": "2009", 
+        "TOTAL":"140", 
+        "PASS":"87",
+        "PERCENTAGE":"62%" 
+    } 
 ]

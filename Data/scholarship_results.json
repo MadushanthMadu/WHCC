@@ -1,12 +1,32 @@
-[
-    {
-        "YEAR": "2020",
-        "PASS":"120",
-        "HIGH_MARKS":"100"
-    },
-    {
-        "YEAR": "2019",
-        "PASS":"100",
-        "HIGH_MARKS":"50"
-    }
+[ 
+    { 
+        "YEAR":"2017", 
+        "PASS":"11", 
+        "HIGH_MARKS":"181" 
+    }, 
+    { 
+        "YEAR":"2016", 
+        "PASS":"13",
+        "HIGH_MARKS":"178"
+    }, 
+    { 
+        "YEAR":"2015", 
+        "PASS":"21", 
+        "HIGH_MARKS":"187"
+    }, 
+    { 
+        "YEAR":"2014",
+        "PASS":"20",
+        "HIGH_MARKS":"184" 
+    }, 
+    { 
+        "YEAR":"2013", 
+        "PASS":"17", 
+        "HIGH_MARKS":"185"
+    }, 
+    { 
+        "YEAR":"2012",
+        "PASS":"12",
+        "HIGH_MARKS":"174"
+    } 
 ]
