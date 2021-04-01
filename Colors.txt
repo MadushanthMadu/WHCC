@@ -2,3 +2,4 @@ Maroon : #520000
 round card - Ash : #e7e7e7
 btn : hover - Orange : #ff5e14
 box-shadow : silver 3px 3px 3px;
+tab-width: 900px

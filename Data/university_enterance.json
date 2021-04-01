@@ -45,7 +45,7 @@
         "NO": "134",        
         "NAME":"Kishani",
         "UNIVERSITY":"University Of Jaffna",
-        "STREAM":"Science",
+        "STREAM":"Computer Science",
         "YEAR":"2017"
     },
     {
@@ -73,7 +73,7 @@
         "NO": "130",        
         "NAME":"M.Mathanraj",
         "UNIVERSITY":"University Of Jaffna",
-        "STREAM":"Food & Science Technology",
+        "STREAM":"Computer Science",
         "YEAR":"2016"
     },
     {
@@ -107,8 +107,8 @@
     {
         "NO": "125",        
         "NAME":"Shiyamali Paranthaman",
-        "UNIVERSITY":" ",
-        "STREAM":" ",
+        "UNIVERSITY":"University Of Jaffna",
+        "STREAM":"Medicine",
         "YEAR":"2015"
     },
     {
