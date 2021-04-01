@@ -167,22 +167,18 @@
         </nav>
     </section>
 
-    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
+    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;" id="cont">
         <h1 style="font-weight: bold; padding-bottom: 25px;" class="text-center">EXAMINATION</h1>
         <div class="papers text-center">
             <div class="oe">
                 <h3 style="font-weight: bold; padding-bottom: 10px;">ONLINE EXAMS</h3>
                 <div class="online" id="online_exams">
-                    <!-- <i class="fas fa-link" style="font-size: 1.4rem; color: #520000; padding-bottom: 5px;">&nbsp;LINK 01.</i><br>
-                    <i class="fas fa-link" style="font-size: 1.4rem; color: #520000; padding-bottom: 5px;">&nbsp;LINK 02.</i> -->
                 </div>
             </div>
 
             <div class="pdf">
                 <h3 style="font-weight: bold; padding-bottom: 10px;">EXAM PAPERS (PDF)</h3>
                 <div class="exam" id="exam_pdf">
-                    <!-- <i class="fas fa-file-pdf" style="font-size: 1.4rem; color: #520000; padding-bottom: 5px;">&nbsp;PDF 01.</i><br>
-                    <i class="fas fa-file-pdf" style="font-size: 1.4rem; color: #520000; padding-bottom: 5px;">&nbsp;PDF 02.</i> -->
                 </div>
             </div>
         </div>
@@ -324,7 +320,7 @@
 
     <script>
         var grade = 0;
-
+        
         function SelectGrade(myGrade){
             myGrade--;
             grade = myGrade;
@@ -360,7 +356,10 @@
                     }
 
                     document.getElementById("exam_pdf").innerHTML = body;
+
                     $('#select').modal('hide');
+
+                    window.scrollTo(0, 0);
                 });
             });
         }
