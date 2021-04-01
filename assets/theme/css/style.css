@@ -1182,7 +1182,6 @@ color: #878787;
 @media (max-width:991px) {
   .connect {
     margin: 50px;
-    /* margin-top: 0px; */
   }
 
   .address {
@@ -1197,7 +1196,6 @@ color: #878787;
   }
 
   .footer-section .container .footer-cta .fcm {
-    /* margin: 5px; */
     padding: 0px;
   }
 
@@ -1215,24 +1213,6 @@ color: #878787;
     margin-right: auto !important;
   }
 }
-
-/* 
-@media (max-width:920px) {
-  .message_heading {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-
-  .footer-section .container .footer-cta .row .fcm {
-    padding: 0px;
-  }
-
-  .footer-section .container {
-    margin-left: 80px !important;
-    margin-right: 80px !important;
-    max-width: 900px;
-  }
-} */
 
 .sendmessage {
   margin: 15px;
