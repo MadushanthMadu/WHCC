@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Wijayaratnam Hindu Central College">
         
-        <title>HOME - WHCC</title>
+        <title>PREFECTS DAY - WHCC</title>
         <link rel="shortcut icon" type="image/png" href="img/Logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -100,6 +100,9 @@
                                 <a class="text-primary dropdown-item display-4" href="prize_day.html" aria-expanded="false">
                                     ANNUAL PRIZE DAY
                                 </a>
+                                <a class="text-primary dropdown-item display-4" href="tour.html" aria-expanded="false">
+                                    ANNUAL TOURISM
+                                </a>
                                 <a class="text-primary dropdown-item display-4" href="prefects_day.html" aria-expanded="false">
                                     PREFECTS DAY
                                 </a>
@@ -160,7 +163,20 @@
         </nav>
     </section>
 
-    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;"></div>
+    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
+        <h1 style="font-weight: bold; margin-bottom: 35px;" class="text-center">PREFECTS DAY</h1>
+        <div class="events" id="event">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 images">
+                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" width="75%">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details">
+                    <h3 style="font-weight: bold; margin-bottom: 15px;" class="text-center" id="subtitle"></h3>
+                    <p id="paragraph"></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer-section">
         <div class="container">
@@ -245,10 +261,11 @@
 
     <script>
         window.onload = function() {
-            fetch("./Data/contact_us.json")
+            fetch("./Data/prefects_day.json")
             .then(response => {
                 response.json().then(function(result){
-                    // document.getElementById("message_heading").innerHTML = result.MESSAGE_HEADING;
+                    document.getElementById("subtitle").innerHTML = result.SUB_TITLE;
+                    document.getElementById("paragraph").innerHTML = result.DETAILS;
                 });
             });
         };

@@ -1130,8 +1130,7 @@ color: #878787;
 
 .about {
   background-color: #520000;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 50px;
 }
 
 #about_heading {
@@ -1141,6 +1140,7 @@ color: #878787;
 
 #about_details {
   color: white;
+  font-weight: 700;
 }
 
 .schoolmap {
@@ -1326,6 +1326,7 @@ color: #878787;
 
 .guiz-awards-header {
   text-align: center;
+  background-color: white;
 }
 
 .guiz-awards-header li {
@@ -1497,16 +1498,15 @@ color: #878787;
 
 .parallax_body {
   width: 100%;
-  height: 60%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .parallax_card {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.411);
   backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -1515,13 +1515,6 @@ color: #878787;
 .parallax_card h3,
 .parallax_card p {
   color: white;
-}
-
-@media (max-width:991px) {
-  .parallax_body {
-    padding-top: 15%;
-    padding-bottom: 15%;
-  }
 }
 
 #parallax {
@@ -1550,6 +1543,11 @@ color: #878787;
   margin-bottom: 25px;
 }
 
+.cid-ssVGyA3zVo .content-wrapper {
+  box-shadow : silver -3px 3px 3px;
+  border-radius: 15px;
+}
+
 @media (max-width: 991px) {
   .cid-ssVGyA3zVo .content-wrapper .row {
     flex-direction: column-reverse;
@@ -1559,14 +1557,19 @@ color: #878787;
     margin-bottom: 2rem;
   }
 
-  .cid-ssVGyA3zVo .content-wrapper {
-    box-shadow : silver 3px 3px 3px;
-    border-radius: 15px;
-  }
-
   .container3 {
     max-width: 90%;
     padding: 0;
+  }
+}
+
+h3.card-title {
+  font-size: 1.4rem;
+}
+
+@media (max-width:920px) {
+  h3.card-title {
+    font-size: 2.2rem;
   }
 }
 
@@ -1574,15 +1577,20 @@ color: #878787;
   .cid-ssVGyA3zVo .content-wrapper {
     padding: 1rem;
   }
+
+  h3.card-title {
+    font-size: 1.2rem;
+  }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .cid-ssVGyA3zVo .content-wrapper {
     padding: 2rem;
   }
 }
+
 @media (min-width: 992px) {
   .cid-ssVGyA3zVo .content-wrapper {
-    box-shadow : silver 3px 3px 3px;
     border-radius: 15px;
     padding: 1.5rem 1.2rem;
   }
@@ -1616,19 +1624,23 @@ color: #878787;
     padding: 1rem;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .cid-ssVGz4bN7n .content-wrapper {
     padding: 2rem;
   }
 }
+
 @media (min-width: 992px) {
   .cid-ssVGz4bN7n .content-wrapper {
     padding: 1.5rem 1.2rem;
   }
+
   .cid-ssVGz4bN7n .content-wrapper .text-wrapper {
     padding-left: 2rem;
   }
 }
+
 .cid-ssVGz4bN7n .image-wrapper img {
   width: 100%;
   object-fit: cover;
@@ -1682,4 +1694,38 @@ div.papers .pdf {
   background-color: #e7e7e7;
   border-radius: 10px;
   margin-bottom: 25px;
+}
+
+div.events div.row div.images img{
+  width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.events div.row div.details p {
+  font-size: 1rem;
+}
+
+div.events div.row div.details {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.events div.row div.details #subtitle,
+div.events div.row div.details #subtitle2,
+div.events div.row div.details #subtitle3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-transform:uppercase;
+  font-size: 1.5rem;
+}
+
+div.events div.row div.details #paragraph,
+div.events div.row div.details #paragraph2,
+div.events div.row div.details #paragraph3 {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
 }
