@@ -6,7 +6,7 @@
         "SUBJECT":"SUBJECT 1"
     },
     {
-        "IMAGE":"img/staff/3.jpg",
+        "IMAGE":"img/staff/3.JPG",
         "NAME":"MRS.V.PUSHPARANI",
         "GRADE":"S.L.P.S I",
         "SUBJECT":"SUBJECT 2"
@@ -78,7 +78,7 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/20.jpg",
+        "IMAGE":"img/staff/20.JPG",
         "NAME":"MISS.S.MARKANDU",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
