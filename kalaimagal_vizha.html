@@ -165,15 +165,12 @@
 
     <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
         <h1 style="font-weight: bold; margin-bottom: 35px;" class="text-center">KALAIMAGAL VIZHA</h1>
-        <div class="events" id="event">
+        <div class="events">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 images">
                     <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" width="75%">
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details">
-                    <h3 style="font-weight: bold; margin-bottom: 15px;" class="text-center" id="subtitle"></h3>
-                    <p id="paragraph"></p>
-                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event"></div>
             </div>
         </div>
     </div>
@@ -264,12 +261,32 @@
             fetch("./Data/kalaimagal_vizha.json")
             .then(response => {
                 response.json().then(function(result){
-                    document.getElementById("subtitle").innerHTML = result.SUB_TITLE;
-                    document.getElementById("paragraph").innerHTML = result.DETAILS;
+                    var body = "";
+
+                    for(let i = 0; i < result.length; i++){
+                        body = body +
+                        "<div class=\"mb-3\">" +
+                        "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
+                        "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
+                        "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
+                        "<strong>" + result[i].SUB_TITLE + "</strong>" +
+                        "<i class=\"fas fa-caret-down\">" + "</i>" +
+                        "</h3>" +
+                        "</a>" +
+                        "</div>" +
+                        "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
+                        "<div class=\"panel-body\">" +
+                        "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
+                        "</div>" +
+                        "</div>" +
+                        "</div>" ;
+                    }
+
+                    document.getElementById("event").innerHTML = body;
                 });
             });
         };
     </script>
-
+    
 </body>
 </html>

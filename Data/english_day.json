@@ -1,4 +1,6 @@
-{
-    "SUB_TITLE":"add sub title",
-    "DETAILS":"add paragraph"
-}
+[
+    {
+        "SUB_TITLE":"add sub title",
+        "DETAILS":"add paragraph"
+    }
+]
