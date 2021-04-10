@@ -163,8 +163,36 @@
         </nav>
     </section>
 
-    <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
-        
+    <div class="content" style="margin-top: 5rem; padding-top: 0px; padding-bottom: 20px;">
+        <h1 style="font-weight: bold; margin-bottom: 35px; padding: 1px;" class="text-center">VIRTUAL CLASSES</h1>
+        <div class="classroom">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 class_title_create" id="class_title" align="center">
+                    <h3 id="create">CREATE CLASS</h3>
+                    <a href="https://classroom-smartlearn.herokuapp.com/" target="_blank" class="create">CREATE YOUR CLASS</a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" id="or">
+                    <h5>OR</h5>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 class_title_join" id="class_title" align="center">
+                    <h3 id="join">JOIN CLASS</h3>
+
+                    <form id="frmSearch" class="search2" method="GET" action="default.html">
+                        <label>ROOM URL</label>
+                        <input class="search2" id="txtSearch" type="text" name="serach_bar" size="31" maxlength="255" value="">
+                        <br><input class="search1" id="search" type="submit" name="submition" value="SEARCH">
+                        <input class="search2" type="hidden" name="sitesearch" value="default.html">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="programmes">
+            <h3>EDUCATIONAL PROGRAMMES</h3>
+            <div class="row" id="educational_programme"></div>
+        </div>
     </div>
 
     <footer class="footer-section">
@@ -250,13 +278,27 @@
 
     <script>
         window.onload = function() {
-            fetch("./Data/contact_us.json")
+            fetch("./Data/virtual_classes.json")
             .then(response => {
                 response.json().then(function(result){
-                    // document.getElementById("message_heading").innerHTML = result.MESSAGE_HEADING;
+                    var body = "";
+
+                    for(let i = 0; i < result.length; i++){
+                        body = body + 
+                        "<div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12 programme_video\">" +
+                        "<iframe src=\'" + result[i].IFRAME_INPUT + "\' title=\'YouTube video player\' frameborder=\'0\' allow=\'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\' allowfullscreen></iframe>" +
+                        "</div>";
+                    }
+
+                    document.getElementById("educational_programme").innerHTML = body;
                 });
             });
         };
+
+        document.getElementById('frmSearch').onsubmit = function() {
+            window.open('' + document.getElementById('txtSearch').value, '_blank')
+            return false;
+        }
     </script>
 
 </body>

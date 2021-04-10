@@ -1312,10 +1312,11 @@ a {
   right: 50%;
   transition: all .2s;
 }
+
 .cid-s48OLK6784 .navbar-dropdown {
   padding: .5rem 1rem;
-  /* position: fixed; */
 }
+
 .cid-s48OLK6784 a.nav-link {
   display: flex;
   align-items: center;

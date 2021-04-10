@@ -1144,8 +1144,8 @@ color: #878787;
 }
 
 .schoolmap {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0px;
   margin-bottom: 25px;
   width: 95%;
@@ -1186,6 +1186,16 @@ color: #878787;
 
   .address {
     margin: 50px;
+  }
+}
+
+@media (max-width:760px) {
+  div.col-xl-4.col-lg-4.col-md-4.col-sm-12.class_title_create {
+    margin-bottom: 50px !important;
+  }
+
+  div.col-xl-4.col-lg-4.col-md-4.col-sm-12.class_title_join {
+    margin-top: 40px !important;
   }
 }
 
@@ -1719,7 +1729,11 @@ div.events div.row div.details #paragraph2,
 div.events div.row div.details #paragraph3 {
   margin-left: 25px;
   margin-right: 25px;
+  font-weight: 600; 
   text-align: left;
+  line-height: 22px;
+  color: #5c5c5c;
+  font-size: 0.9rem;
 }
 
 div.mb-3 div.card-header {
@@ -1792,8 +1806,11 @@ div.mb-3 div.card-header a h3 i {
 }
 
 .tabs_item p {
-  color: #000000;
-  font-weight: 600;
+  font-weight: 600; 
+  text-align: justify;
+  line-height: 22px;
+  color: #5c5c5c;
+  font-size: 0.9rem;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -1816,4 +1833,143 @@ div.mb-3 div.card-header a h3 i {
 .current a {
   color: #fff;
   background: #520000;
+}
+
+.classroom {
+  background-color: #520000;
+  color: white;  
+  padding: 35px;
+}
+
+#class_title h3#create {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#class_title h3#join {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#class_title a.create {
+  background-color: white;
+  color: #520000;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#class_title a.create:hover {
+  background-color: #ff5e14;
+  color: white;
+  border-radius: 25px;
+  transition: ease-in 0.4s;
+}
+
+div.classroom div.row div#or {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.classroom div.row div#or h5 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  width: 50px;
+  height: 50px;
+  background-color: #790000;
+  margin-bottom: 0px;
+  color: #ffffff;
+  border-radius: 100%;
+  font-weight: bold;
+  border: white 3px solid;
+}
+
+div.programmes {
+  padding: 35px;
+}
+
+div.programmes h3 {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#txtSearch {
+  width: 70%;
+  height: 30px;
+}
+
+#search {
+  margin-top: 10px;
+  height: 45px;
+  width: 90px;
+  color: #520000;
+  font-weight: 600;
+  border: none;
+}
+
+#search:hover {
+  background-color: #ff5e14;
+  color: white;
+  border-radius: 25px;
+  transition: ease-in 0.4s;
+}
+
+#prin li {
+  color: black;
+  font-weight: 500;
+}
+
+div.col-xl-3.col-lg-3.col-md-6.col-sm-12.programme_video {
+  margin-bottom: 25px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* News Page */
+
+body.news_page {
+  background-color: rgb(24, 24, 24);
+  /* background-color: #520000 !important; */
+}
+
+div.news_page_01 {
+  background-color: white;
+  padding: 35px;
+}
+
+div.news_page_02 {
+  background-color: rgb(24, 24, 24);
+  /* background-color: #520000 !important; */
+  padding: 35px;
+}
+
+h1.off-news {
+  color: #8b8b8b;
+  /* color: #ffffff !important; */
+}
+
+div.news_page_01 h4#news_title {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+div.news_page_02 h4#news_title {
+  color: rgb(201, 201, 201);
+  /* color: rgb(255, 255, 255) !important; */
+  font-weight: 700;
+}
+
+div.news_page_01 p#news_details {
+  color: rgb(44, 44, 44);
+  margin-bottom: 0px;
+}
+
+div.news_page_02 p#news_details {
+  color: rgb(255, 255, 255);
+  /* color: rgb(255, 189, 189) !important; */
+  margin-bottom: 0px;
 }
