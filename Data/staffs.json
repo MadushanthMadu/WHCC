@@ -1,12 +1,12 @@
 [
     {
-        "IMAGE":"img/staff/1.jpg",
+        "IMAGE":"img/staff/Principle.jpg",
         "NAME":"MR.N.PUWANESHWARARAJA",
         "GRADE":"S.L.P.S 3",
         "SUBJECT":"SUBJECT 1"
     },
     {
-        "IMAGE":"img/staff/3.JPG",
+        "IMAGE":"img/staff/Pushparani.JPG",
         "NAME":"MRS.V.PUSHPARANI",
         "GRADE":"S.L.P.S I",
         "SUBJECT":"SUBJECT 2"
@@ -132,7 +132,7 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/37.jpg",
+        "IMAGE":"img/staff/Punitharani.jpg",
         "NAME":"MRS.B.C.PUNITHARANI",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
@@ -312,25 +312,25 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Peries.jpg",
         "NAME":"MRS.S.M.A.SASHIFA PERIES",
         "GRADE":"S.L.T.S 3-I",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Gobalan.jpg",
         "NAME":"MRS.G.D.GOBALAN",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
-        "NAME":"MRS.UMA JEGAN",
+        "IMAGE":"img/staff/UmaSegar.jpg",
+        "NAME":"MRS.UMA SEGAR",
         "GRADE":"S.L.T.S 3-I",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Kumari.jpg",
         "NAME":"MRS.W.A.T.KUMARI",
         "GRADE":"S.L.T.S I",
         "SUBJECT":"SUBJECT 3"
@@ -354,26 +354,14 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Aththachchi.jpg",
         "NAME":"MRS.J.V.F.ATHTHACHCHI",
         "GRADE":"S.L.T.S I",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Arzath.jpg",
         "NAME":"MR.A.A.M.ARZATH",
-        "GRADE":"S.L.T.S 2-II",
-        "SUBJECT":"SUBJECT 3"
-    },
-    {
-        "IMAGE":"img/staff/0.jpg",
-        "NAME":"MISS.T.NIRANJALA",
-        "GRADE":"S.L.T.S I",
-        "SUBJECT":"SUBJECT 3"
-    },
-    {
-        "IMAGE":"img/staff/0.jpg",
-        "NAME":"MRS.S.VANITHA",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
     },
@@ -384,7 +372,7 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Sudhahar.jpg",
         "NAME":"MR.S.SUDHAHAR",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
@@ -396,19 +384,19 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Thamaramali.jpg",
         "NAME":"MRS.THAMARAMALI",
         "GRADE":"S.L.T.S 3-I",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Dayalini.jpg",
         "NAME":"MRS.J.DAYALINI",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Sritharan.jpg",
         "NAME":"MR.R.SRITHARAN",
         "GRADE":"S.L.T.S 3-I",
         "SUBJECT":"SUBJECT 3"
@@ -416,73 +404,61 @@
     {
         "IMAGE":"img/staff/0.jpg",
         "NAME":"MR.G.SUDHAHARAN",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"TEACHER ASSISTANT",
+        "SUBJECT":"SCIENCE"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Tharankini.jpg",
         "NAME":"MISS.T.THARANKINI",
         "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "SUBJECT":" "
     },
     {
-        "IMAGE":"img/staff/105.jpg",
+        "IMAGE":"img/staff/Ruzaina.jpg",
         "NAME":"MRS.RUZAINA",
         "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/0.jpg",
         "NAME":"MISS.SHOBANA",
         "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/0.jpg",
         "NAME":"MISS.REBEKA",
         "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/102.jpg",
         "NAME":"MRS.N.V.ANOJA PRIYANTHI",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"LAB ASSISTANT",
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/101.jpg",
         "NAME":"MR.E.A.H.V.BANDULA",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"S.W.ASSISTANT",
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/100.jpg",
         "NAME":"MR.K.R.KAMAL PRIYANTHA",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"S.W.ASSISTANT",
+        "SUBJECT":" "
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Miranda.jpg",
         "NAME":"MRS.MELANI MIRANDA",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
-    },
-    {
-        "IMAGE":"img/staff/0.jpg",
-        "NAME":"MR.R.M.A.S.RATNAYAKA",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
-    },
-    {
-        "IMAGE":"img/staff/0.jpg",
-        "NAME":"MRS.J.M.T.NILMINI",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"LAB ASSISTANT",
+        "SUBJECT":" "
     },
     {
         "IMAGE":"img/staff/103.jpg",
         "NAME":"MISS.S.SHARMILA",
-        "GRADE":" ",
-        "SUBJECT":"SUBJECT 3"
+        "GRADE":"APPLICATION ASSISTANT",
+        "SUBJECT":" "
     }
 ]
