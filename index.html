@@ -35,428 +35,442 @@
         <script src="assets/dropdown/js/nav-dropdown.js"></script>
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-        <script src="assets/theme/js/script.js"></script>  
+        <script src="assets/theme/js/script.js"></script>
+
+        <style>
+           .index{
+                opacity: 0;
+                display: none;
+           }
+
+           .show{
+               animation: show 3s forwards;
+               display: block;
+           }
+
+           .hide{
+               display: none;
+           }
+
+           @keyframes show{
+               0%{
+                   opacity: 0;
+               }
+               100%{
+                   opacity: 1;
+               }
+           }
+        </style>
+
+        <script>
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hide');
+                document.getElementById('body').classList.add('show');
+            }, 5000);
+        </script>
     </head>
 <body>
-    
-    <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
-        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="navbar-brand"> 
-                    <span class="navbar-caption-wrap">
-                        <div class="navbar-caption text-secondary firstheader">
-                            <i class='fas fa-home'></i>
-                            <b>HOME</b>
-                        </div>
-                    </span>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                        <li class="nav-item">
-                            <a class="nav-link link text-primary display-4" href="index.html">
-                                <b>HOME</b>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
-                                <b>ACHIEVEMENT</b>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="text-primary dropdown-item display-4" href="university_enterance.html">
-                                    UNIVERSITY ENTERANCE
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="ol_results.html" aria-expanded="false">
-                                    G.C.E O/L RESULTS
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="scholarship_results.html" aria-expanded="false">
-                                    GRADE 5 SCHOLARSHIP RESULTS
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="git_results.html" aria-expanded="false">
-                                    G.I.T RESULTS
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
-                                <b>SPECIAL EVENTS</b>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="text-primary dropdown-item display-4" href="kalaimagal_vizha.html">
-                                    KALAIMAGAL VIZHA
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="oli_vizha.html" aria-expanded="false">
-                                    OLI VIZHA
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="sport_meet.html" aria-expanded="false">
-                                    ANNUAL SPORTS MEET
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="prize_day.html" aria-expanded="false">
-                                    ANNUAL PRIZE DAY
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="tour.html" aria-expanded="false">
-                                    ANNUAL TOURISM
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="prefects_day.html" aria-expanded="false">
-                                    PREFECTS DAY
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="english_day.html" aria-expanded="false">
-                                    ENGLISH DAY
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="tamil_day.html" aria-expanded="false">
-                                    TAMIL LANGUAGE DAY
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="exhibition.html" aria-expanded="false">
-                                    EXHIBITION
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="welcome_freshers.html" aria-expanded="false">
-                                    WELCOMING THE FRESHERS
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
-                                <b>LEARNINGS</b>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="text-primary dropdown-item display-4" href="virtual_classes.html">
-                                    VIRTUAL CLASSES
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="examination.html" aria-expanded="false">
-                                    EXAMINATION
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="study_tool.html" aria-expanded="false">
-                                    STUDY TOOLS
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
-                                <b>ABOUT</b>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="text-primary dropdown-item display-4" href="unions.html">
-                                    UNIONS
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="staffs.html" aria-expanded="false">
-                                    STAFFS
-                                </a>
-                                <a class="text-primary dropdown-item display-4" href="school_history.html" aria-expanded="false">
-                                    SCHOOL HISTORY
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link text-primary display-4" href="contact_us.html">
-                                <b>CONTACT US</b>
-                            </a>
-                        </li>
-                    </ul>   
-                </div>
-            </div>
-        </nav>
-    </section>
 
-    <section class="slider cid-ss7GByVnKR" id="slider1-k">
-        <div id="carouselExampleCaptions" class="carousel slide slidshow" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/OnlineExamination.jpg" id="slide1" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/TermPaper.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </section>
-
-    <div class="content">
-        <div class="row vimi">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h1 class="card-title">VISION</h1>
-                        <p class="card-text" id="vision"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h1 class="card-title">MISSION</h1>
-                        <p class="card-text" id="mission"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <section class="content2 cid-sscd6LPSf4" id="content2-m">
-            <div class="container">
-                <div class="mbr-section-head">
-                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>LATEST NEWS</strong></h4>
-                </div>
-
-                <div class="row mt-4" style="margin-left: auto; margin-right: auto;">
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper news1">
-                            <div class="item-img">
-                                <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" alt="">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style display-5">
-                                    <a href="" class="text-black" id="news1_heading"></a>
-                                </h5>
-                                <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news1_details"></p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
-                                    Read More &gt;
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper news2">
-                            <div class="item-img">
-                                <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Books.jpg" alt="">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style display-5">
-                                    <a href="" class="text-black" id="news2_heading"></a>
-                                </h5>
-                                <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news2_details"></p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
-                                    Read More &gt;
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4" style="margin-left: auto; margin-right: auto;">
-                        <div class="item-wrapper news3">
-                            <div class="item-img">
-                                <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" alt="">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style display-5">
-                                    <a href="" class="text-black" id="news3_heading"></a>
-                                </h5>
-                                <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news3_details"></p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
-                                    Read More &gt;
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="row" align="center">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="card2 text-center">
-                    <div class="card-body2">
-                        <div class="card-text2"><b>STUDENTS</b></div>
-                        <div class="card-title2" id="students"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="card2 text-center">
-                    <div class="card-body2">
-                        <div class="card-text2"><b>TEACHERS</b></div>
-                        <div class="card-title2" id="teachers"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="card2 text-center">
-                    <div class="card-body2">
-                        <div class="card-text2"><b>STAFFS</b></div>
-                        <div class="card-title2" id="staffs"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="about text-center">
-            <h1 id="about_heading"></h1>
-            <p id="about_details"></p>
-        </div>
-
-        <div class="schoolmap" align="center">
-            <h1 id="schoolmap_heading"></h1>
-            <img src="img/Map.JPG">
-        </div>
+    <div class="loader" id="loader" style="height: 100vh; background-color: #fcefdc;">
+        <img src="img/Logo.png" style="width: 150px; margin: auto; padding-top: 35vh;">
+        <h3 class="text-center" style="padding-top: 25px;">LOADING...</h3>
     </div>
 
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>134, Sea Street, Negombo 11500</span>
+    <div class="index" id="body">
+        <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
+            <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="navbar-brand"> 
+                        <span class="navbar-caption-wrap">
+                            <div class="navbar-caption text-secondary firstheader">
+                                <i class='fas fa-home'></i>
+                                <b>HOME</b>
                             </div>
-                        </div>
+                        </span>
                     </div>
-                    <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4>Call us</h4>
-                                <span>031 223 7047</span>
-                            </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>Mail us</h4>
-                                <span>wpngwijayaratnamhcc@gmail.com</span>
-                            </div>
-                        </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="index.html">
+                                    <b>HOME</b>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
+                                    <b>ACHIEVEMENT</b>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="text-primary dropdown-item display-4" href="university_enterance.html">
+                                        UNIVERSITY ENTERANCE
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="ol_results.html" aria-expanded="false">
+                                        G.C.E O/L RESULTS
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="scholarship_results.html" aria-expanded="false">
+                                        GRADE 5 SCHOLARSHIP RESULTS
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="git_results.html" aria-expanded="false">
+                                        G.I.T RESULTS
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
+                                    <b>SPECIAL EVENTS</b>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="text-primary dropdown-item display-4" href="kalaimagal_vizha.html">
+                                        KALAIMAGAL VIZHA
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="oli_vizha.html" aria-expanded="false">
+                                        OLI VIZHA
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="sport_meet.html" aria-expanded="false">
+                                        ANNUAL SPORTS MEET
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="prize_day.html" aria-expanded="false">
+                                        ANNUAL PRIZE DAY
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="tour.html" aria-expanded="false">
+                                        ANNUAL TOURISM
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="prefects_day.html" aria-expanded="false">
+                                        PREFECTS DAY
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="english_day.html" aria-expanded="false">
+                                        ENGLISH DAY
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="tamil_day.html" aria-expanded="false">
+                                        TAMIL LANGUAGE DAY
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="exhibition.html" aria-expanded="false">
+                                        EXHIBITION
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="welcome_freshers.html" aria-expanded="false">
+                                        WELCOMING THE FRESHERS
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
+                                    <b>LEARNINGS</b>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="text-primary dropdown-item display-4" href="virtual_classes.html">
+                                        VIRTUAL CLASSES
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="examination.html" aria-expanded="false">
+                                        EXAMINATION
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="study_tool.html" aria-expanded="false">
+                                        STUDY TOOLS
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link text-primary dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
+                                    <b>ABOUT</b>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="text-primary dropdown-item display-4" href="unions.html">
+                                        UNIONS
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="staffs.html" aria-expanded="false">
+                                        STAFFS
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="school_history.html" aria-expanded="false">
+                                        SCHOOL HISTORY
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="contact_us.html">
+                                    <b>CONTACT US</b>
+                                </a>
+                            </li>
+                        </ul>   
                     </div>
                 </div>
-            </div>
-            <div class="footer-content">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <img src="img/union.jpg" class="img-fluid" alt="logo">
-                            </div>
-                            <div class="footer-text">
-                                <p>Designed By 2023 A/L Batch.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Opening Time</h3>
-                            </div>
-                            <ul>
-                                <li>Monday - Friday</li>
-                                <li>7:30 a.m - 1:30 p.m</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-social-icon">
-                            <div class="footer-widget-heading">
-                                <h3>Follow us</h3>
-                            </div>
-                            <a href="https://www.facebook.com/Wijayaratnamhcc" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                            <a href="https://www.youtube.com/channel/UCIJLIagot_afpm3uBGLGWXA" target="_blank"><i class="fab fa-youtube youtube-bg"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2021, All Right Reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // window.onscroll = function() {myFunction()};
-
-        // var navbar = document.getElementById("menu1-h");
-        // var sticky = navbar.offsetTop;
-
-        // function myFunction() {
-        //     if (window.pageYOffset >= sticky) {
-        //         console.log(1)
-        //         navbar.classList.add("sticky")
-        //     } else {
-        //         console.log(2)
-        //         navbar.classList.remove("sticky");
-        //     }
-                
-        // }
-
-        window.onload = function() {
-            fetch("./Data/home.json")
-            .then(response => {
-                response.json().then(function(result){
-                    // console.log(result.VISION)
-                    document.getElementById("vision").innerHTML = result.VISION;
-                    document.getElementById("mission").innerHTML = result.MISSION;
-                    document.getElementById("students").innerHTML = result.STUDENTS;
-                    document.getElementById("teachers").innerHTML = result.TEACHERS;
-                    document.getElementById("staffs").innerHTML = result.STAFFS;
-                    document.getElementById("news1_heading").innerHTML = result.NEWS1_HEADING;
-                    document.getElementById("news1_details").innerHTML = result.NEWS1_DETAILS;
-                    document.getElementById("news2_heading").innerHTML = result.NEWS2_HEADING;
-                    document.getElementById("news2_details").innerHTML = result.NEWS2_DETAILS;
-                    document.getElementById("news3_heading").innerHTML = result.NEWS3_HEADING;
-                    document.getElementById("news3_details").innerHTML = result.NEWS3_DETAILS;
-                    document.getElementById("about_heading").innerHTML = result.ABOUT_HEADING;
-                    document.getElementById("about_details").innerHTML = result.ABOUT_DETAILS;
-                    document.getElementById("schoolmap_heading").innerHTML = result.SCHOOLMAP_HEADING;
-                });
-            });
-        };
-    </script>
+            </nav>
+        </section>
     
+        <section class="slider cid-ss7GByVnKR" id="slider1-k">
+            <div id="carouselExampleCaptions" class="carousel slide slidshow" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/OnlineExamination.jpg" id="slide1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/ModelPapers.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/TermPaper.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    
+        <div class="content">
+            <div class="row vimi">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h1 class="card-title">VISION</h1>
+                            <p class="card-text" id="vision">Producing a noble citizen to the nation who could face the challenges of the modern era with self confidence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h1 class="card-title">MISSION</h1>
+                            <p class="card-text" id="mission">"Creating an eminent citizen through the competency based education under the National Educational Goals, fully concerned of ability wisdom trait and creativity gifted with knowledge, skills, attitudes and practice implementing the total curriculum of the school.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <section class="content2 cid-sscd6LPSf4" id="content2-m">
+                <div class="container">
+                    <div class="mbr-section-head">
+                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>LATEST NEWS</strong></h4>
+                    </div>
+    
+                    <div class="row mt-4" style="margin-left: auto; margin-right: auto;">
+                        <div class="item features-image сol-12 col-md-6 col-lg-4">
+                            <div class="item-wrapper news1">
+                                <div class="item-img">
+                                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/PastPaper.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h5 class="item-title mbr-fonts-style display-5">
+                                        <a href="" class="text-black" id="news1_heading"></a>
+                                    </h5>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news1_details"></p>
+                                </div>
+                                <div class="mbr-section-btn item-footer mt-2">
+                                    <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
+                                        Read More &gt;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item features-image сol-12 col-md-6 col-lg-4">
+                            <div class="item-wrapper news2">
+                                <div class="item-img">
+                                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Books.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h5 class="item-title mbr-fonts-style display-5">
+                                        <a href="" class="text-black" id="news2_heading"></a>
+                                    </h5>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news2_details"></p>
+                                </div>
+                                <div class="mbr-section-btn item-footer mt-2">
+                                    <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
+                                        Read More &gt;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item features-image сol-12 col-md-6 col-lg-4" style="margin-left: auto; margin-right: auto;">
+                            <div class="item-wrapper news3">
+                                <div class="item-img">
+                                    <img src="https://hotelagape.s3.ap-south-1.amazonaws.com/SLIIT/SLIIT/Puzzles.jpg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h5 class="item-title mbr-fonts-style display-5">
+                                        <a href="" class="text-black" id="news3_heading"></a>
+                                    </h5>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news3_details"></p>
+                                </div>
+                                <div class="mbr-section-btn item-footer mt-2">
+                                    <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
+                                        Read More &gt;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <div class="row" align="center">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card2 text-center">
+                        <div class="card-body2">
+                            <div class="card-text2"><b>STUDENTS</b></div>
+                            <div class="card-title2" id="students">0000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card2 text-center">
+                        <div class="card-body2">
+                            <div class="card-text2"><b>TEACHERS</b></div>
+                            <div class="card-title2" id="teachers">74</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card2 text-center">
+                        <div class="card-body2">
+                            <div class="card-text2"><b>STAFFS</b></div>
+                            <div class="card-title2" id="staffs">05</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="about text-center">
+                <h1 id="about_heading">ABOUT OUR SCHOOL</h1>
+                <p id="about_details">Our Wijayaratnam Hindu Central College in Negombo as the only Hindu and Tamil language primary provincial level school in the Gampaha District of the Western Province. Our school was started in 1954 under the name of 'Vivekananda Vidyalaya' with the motto 'Vaiyanthorum Deivam Tholu' by S.K.Wijayaratnam who is the founder of this school. In 1964 an arrangement was made to call it 'Wijayaratnam Maha Vidyalaya'. It was later upgraded in 1993 to 'Wijayaratnam Central College'. Our school, which has grown in this way, is today a 1AB type school where students in the fields of science, mathematics, business, commerce and the arts are making their mark as professors, teachers, doctors, engineers, scientists and today in the field of technology.</p>
+            </div>
+    
+            <div class="schoolmap" align="center">
+                <h1 id="schoolmap_heading">OUR SCHOOL</h1>
+                <img src="img/Map.JPG">
+            </div>
+        </div>
+    
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>134, Sea Street, Negombo 11500</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>031 223 7047</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30 fcm" style="padding-bottom: 10px;">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>wpngwijayaratnamhcc@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <img src="img/union.jpg" class="img-fluid" alt="logo">
+                                </div>
+                                <div class="footer-text">
+                                    <p>Designed By 2023 A/L Batch.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Opening Time</h3>
+                                </div>
+                                <ul>
+                                    <li>Monday - Friday</li>
+                                    <li>7:30 a.m - 1:30 p.m</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-social-icon">
+                                <div class="footer-widget-heading">
+                                    <h3>Follow us</h3>
+                                </div>
+                                <a href="https://www.facebook.com/Wijayaratnamhcc" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://www.youtube.com/channel/UCIJLIagot_afpm3uBGLGWXA" target="_blank"><i class="fab fa-youtube youtube-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2021, All Right Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script>    
+            window.onload = function() {
+                fetch("./Data/home.json")
+                .then(response => {
+                    response.json().then(function(result){
+                        document.getElementById("news1_heading").innerHTML = result.NEWS1_HEADING;
+                        document.getElementById("news1_details").innerHTML = result.NEWS1_DETAILS;
+                        document.getElementById("news2_heading").innerHTML = result.NEWS2_HEADING;
+                        document.getElementById("news2_details").innerHTML = result.NEWS2_DETAILS;
+                        document.getElementById("news3_heading").innerHTML = result.NEWS3_HEADING;
+                        document.getElementById("news3_details").innerHTML = result.NEWS3_DETAILS;
+                    });
+                });
+            };
+        </script>
+    </div>
+
 </body>
 </html>

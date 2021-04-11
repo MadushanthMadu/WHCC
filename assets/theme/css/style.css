@@ -1522,9 +1522,15 @@ color: #878787;
   border-radius: 10px;
 }
 
-.parallax_card h3,
+.parallax_card h3 {
+  color: whitesmoke;
+  line-height: 40px;
+}
+
 .parallax_card p {
+  font-weight: 700;
   color: white;
+  line-height: 22px;
 }
 
 #parallax {
@@ -1532,6 +1538,21 @@ color: #878787;
   background-attachment: fixed;
   background-position-x: center;
   background-position-y: top;
+}
+
+@media (max-width:920px) {
+  .parallax_card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .parallax_card h3 {
+    font-size: 25px;
+  }
+
+  .parallax_card p {
+    font-size: 15px;
+  }
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
