@@ -1957,26 +1957,44 @@ div.col-xl-3.col-lg-3.col-md-6.col-sm-12.programme_video {
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img {
     object-fit: cover;
   }
-}
-
-@media (max-width:560px) {
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide1 {
-    object-position: -500px;
+    object-position: 60%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide3 {
-    object-position: -200px;
+    object-position: 30%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide4 {
     object-position: -300px;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide5 {
-    object-position: -300px;
+    object-position: 50%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide7 {
-    object-position: -500px;
+    object-position: 40%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide8 {
-    object-position: 100%;
+    object-position: 10%;
+  }
+}
+
+@media (max-width:560px) {
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide1 {
+    object-position: 50% !important;
+  }
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide3 {
+    object-position: -200px !important;
+  }
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide4 {
+    object-position: -300px !important;
+  }
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide5 {
+    object-position: 50% !important;
+  }
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide7 {
+    object-position: 45% !important;
+  }
+  .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide8 {
+    object-position: 5% !important;
   }
 }
 
@@ -1991,13 +2009,13 @@ div.col-xl-3.col-lg-3.col-md-6.col-sm-12.programme_video {
     object-position: -300px;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide5 {
-    object-position: -300px;
+    object-position: 45%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide7 {
-    object-position: -600px;
+    object-position: 40%;
   }
   .cid-ss7GByVnKR .carousel.slide.slidshow .carousel-inner img#slide8 {
-    object-position: 90%;
+    object-position: 10%;
   }
 }
 
