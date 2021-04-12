@@ -342,13 +342,13 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Dharshini.jpg",
         "NAME":"MRS.T.DHARSHINI",
         "GRADE":"S.L.T.S 2-I",
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Nalayeni.jpg",
         "NAME":"MRS.K.NALAYENI",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
@@ -366,7 +366,7 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Sarumathy.jpg",
         "NAME":"MRS.N.SARUMATHY",
         "GRADE":"S.L.T.S 2-II",
         "SUBJECT":"SUBJECT 3"
@@ -378,7 +378,7 @@
         "SUBJECT":"SUBJECT 3"
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Anna.jpg",
         "NAME":"MRS.A.A.M.ANNA",
         "GRADE":"S.L.T.S 3-I",
         "SUBJECT":"SUBJECT 3"
@@ -420,7 +420,7 @@
         "SUBJECT":" "
     },
     {
-        "IMAGE":"img/staff/0.jpg",
+        "IMAGE":"img/staff/Shobana.jpg",
         "NAME":"MISS.SHOBANA",
         "GRADE":" ",
         "SUBJECT":" "
