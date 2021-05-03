@@ -165,99 +165,7 @@
 
     <div class="content" style="margin-top: 5rem; padding-top: 20px; padding-bottom: 20px;">
         <h1 style="font-weight: bold; margin-bottom: 35px;" class="text-center">UNIONS</h1>
-        <!-- <div class="parallax">
-            <div class="parallax_body" id="parallax1">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union1"></h3>
-                    <p class="text-justify" id="union1_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax2">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union2"></h3>
-                    <p class="text-justify" id="union2_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax3">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union3"></h3>
-                    <p class="text-justify" id="union3_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax4">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union4"></h3>
-                    <p class="text-justify" id="union4_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax5">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union5"></h3>
-                    <p class="text-justify" id="union5_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax6">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union6"></h3>
-                    <p class="text-justify" id="union6_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax7">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union7"></h3>
-                    <p class="text-justify" id="union7_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax8">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union8"></h3>
-                    <p class="text-justify" id="union8_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax9">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union9"></h3>
-                    <p class="text-justify" id="union9_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax10">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union10"></h3>
-                    <p class="text-justify" id="union10_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax11">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union11"></h3>
-                    <p class="text-justify" id="union11_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax12">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union12"></h3>
-                    <p class="text-justify" id="union12_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax13">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union13"></h3>
-                    <p class="text-justify" id="union13_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax14">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union14"></h3>
-                    <p class="text-justify" id="union14_details"></p>
-                </div>
-            </div>
-            <div class="parallax_body" id="parallax15">
-                <div class="parallax_card">
-                    <h3 class=" text-center" style="font-weight: 500;" id="union15"></h3>
-                    <p class="text-justify" id="union15_details"></p>
-                </div>
-            </div>
-        </div> -->
-        <div class="parallax" id="parallax"></div>
+        <div id="parallax"></div>
     </div>
 
     <footer class="footer-section">
@@ -350,7 +258,8 @@
 
                     for(let i = 0; i < result.length; i++){
                         body = body +
-                        '<div class=\"parallax_body\" id=\"parallax\" style=\"background-image: url(' + result[i].IMAGE + '\">' +
+                        '<div  class=\"parallax ' + result[i].IMAGE + '\">' +
+                        '<div class=\'parallax_body\' id=\"parallax\">' +
                             "<div class=\"parallax_card\">" +
                                 "<h3 class=\"text-center\" style=\"font-weight: 500;\">" + result[i].UNION_TITLE +
                                 "</h3>" +

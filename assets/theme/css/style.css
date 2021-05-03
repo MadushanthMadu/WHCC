@@ -1508,8 +1508,8 @@ color: #878787;
 
 .parallax_body {
   width: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .parallax_card {
@@ -1533,11 +1533,114 @@ color: #878787;
   line-height: 22px;
 }
 
-#parallax {
-  background-size: cover;
+div.parallax {
   background-attachment: fixed;
   background-position-x: center;
-  background-position-y: top;
+  background-position-y: 80%;
+}
+
+@media (min-width:920px) {
+  div.parallax.al {
+    background-image: url('/img/unions/pc/AL_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+  
+  div.parallax.teachers {
+    background-image: url('/img/unions/pc/AL_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.tamil {
+    background-image: url('/img/unions/pc/Tamil_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.english {
+    background-image: url('/img/unions/pc/English_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sinhala {
+    background-image: url('/img/unions/pc/sinhala_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.wijayashakthi {
+    background-image: url('/img/unions/pc/Wijayashakthi_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.crist {
+    background-image: url('/img/unions/pc/AL_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.ict {
+    background-image: url('/img/union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.mathscience {
+    background-image: url('/img/unions/pc/Mathematical_Science_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sscience {
+    background-image: url('/img/unions/pc/Science_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.com {
+    background-image: url('/img/unions/pc/Commerce_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sport {
+    background-image: url('/img/unions/pc/Sport_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.band {
+    background-image: url('/img/unions/pc/Band_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.trip {
+    background-image: url('/img/unions/pc/Trip_crew.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.traffic {
+    background-image: url('/img/unions/pc/Traffic_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sda {
+    background-image: url('/img/unions/pc/SDA_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.oldstudents {
+    background-image: url('/img/unions/pc/AL_union.jpg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (max-width:920px) {
@@ -1552,6 +1655,212 @@ color: #878787;
 
   .parallax_card p {
     font-size: 15px;
+  }
+
+  div.parallax.al {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+  
+  div.parallax.teachers {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.tamil {
+    background-image: url('/img/unions/mob/Tamil_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.english {
+    background-image: url('/img/unions/mob/English_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sinhala {
+    background-image: url('/img/unions/mob/sinhala_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.wijayashakthi {
+    background-image: url('/img/unions/mob/Wijayashakthi_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.crist {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.ict {
+    background-image: url('/img/union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.mathscience {
+    background-image: url('/img/unions/mob/Mathematical_Science_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sscience {
+    background-image: url('/img/unions/mob/Science_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.com {
+    background-image: url('/img/unions/mob/Commerce_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sport {
+    background-image: url('/img/unions/mob/Sport_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.band {
+    background-image: url('/img/unions/mob/Band_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.trip {
+    background-image: url('/img/unions/mob/Trip_crew.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.traffic {
+    background-image: url('/img/unions/mob/Traffic_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sda {
+    background-image: url('/img/unions/mob/SDA_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.oldstudents {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width:420px) {
+  div.parallax.al {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+  
+  div.parallax.teachers {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.tamil {
+    background-image: url('/img/unions/mob/Tamil_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.english {
+    background-image: url('/img/unions/mob/English_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sinhala {
+    background-image: url('/img/unions/mob/sinhala_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.wijayashakthi {
+    background-image: url('/img/unions/mob/Wijayashakthi_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.crist {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.ict {
+    background-image: url('/img/union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.mathscience {
+    background-image: url('/img/unions/mob/Mathematical_Science_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sscience {
+    background-image: url('/img/unions/mob/Science_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.com {
+    background-image: url('/img/unions/mob/Commerce_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sport {
+    background-image: url('/img/unions/mob/Sport_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.band {
+    background-image: url('/img/unions/mob/Band_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.trip {
+    background-image: url('/img/unions/mob/Trip_crew.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.traffic {
+    background-image: url('/img/unions/mob/Traffic_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.sda {
+    background-image: url('/img/unions/mob/SDA_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  div.parallax.oldstudents {
+    background-image: url('/img/unions/mob/AL_union.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
   }
 }
 
