@@ -1541,7 +1541,7 @@ div.parallax {
 
 @media (min-width:920px) {
   div.parallax.al {
-    background-image: url('/img/unions/pc/AL_union.jpg');
+    background-image: url('./img/unions/pc/AL_union.jpg');
     background-size: 55%;
     background-repeat: no-repeat;
   }
