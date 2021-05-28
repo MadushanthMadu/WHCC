@@ -6,10 +6,9 @@
         <meta name="description" content="Wijayaratnam Hindu Central College">
         
         <title>TAMIL LANGUAGE DAY - WHCC</title>
-        <link rel="shortcut icon" type="image/png" href="img/Logo.png">
+        <link rel="shortcut icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FLogo%2FLogo-min.png?alt=media&token=f7e8c973-6ec5-4b02-8e59-1557250754f9">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
         
         <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
         <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -23,7 +22,6 @@
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
         <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -35,9 +33,40 @@
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
         <script src="assets/theme/js/script.js"></script>  
+
+        <script>
+            window.onload = function() {
+                fetch("./Data/tamil_day.json")
+                .then(response => {
+                    response.json().then(function(result){
+                        var body = "";
+    
+                        for(let i = 0; i < result.length; i++){
+                            body = body +
+                            "<div class=\"mb-3\">" +
+                            "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
+                            "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
+                            "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
+                            "<strong>" + result[i].SUB_TITLE + "</strong>" +
+                            "<i class=\"fas fa-caret-down\">" + "</i>" +
+                            "</h3>" +
+                            "</a>" +
+                            "</div>" +
+                            "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
+                            "<div class=\"panel-body\">" +
+                            "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
+                            "</div>" +
+                            "</div>" +
+                            "</div>" ;
+                        }
+    
+                        document.getElementById("event").innerHTML = body;
+                    });
+                });
+            };
+        </script>
     </head>
 <body>
-
     <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
         <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
             <div class="container-fluid">
@@ -168,7 +197,7 @@
         <div class="events">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 images">
-                    <img src="img/events/tamil_day.jpg" width="75%">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FEvents%2Ftamil_day-min-min.jpg?alt=media&token=7ed383d4-c602-4e21-a8d0-724db207363c" width="75%">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event"></div>
             </div>
@@ -213,7 +242,7 @@
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <img src="img/union.jpg" class="img-fluid" alt="logo">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FLogo%2Funion-min.jpg?alt=media&token=672d5ea6-f692-449d-9450-ca90cdce52a2" class="img-fluid" alt="logo">
                             </div>
                             <div class="footer-text">
                                 <p>Designed By 2023 A/L Batch.</p>
@@ -255,38 +284,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        window.onload = function() {
-            fetch("./Data/tamil_day.json")
-            .then(response => {
-                response.json().then(function(result){
-                    var body = "";
-
-                    for(let i = 0; i < result.length; i++){
-                        body = body +
-                        "<div class=\"mb-3\">" +
-                        "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
-                        "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
-                        "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
-                        "<strong>" + result[i].SUB_TITLE + "</strong>" +
-                        "<i class=\"fas fa-caret-down\">" + "</i>" +
-                        "</h3>" +
-                        "</a>" +
-                        "</div>" +
-                        "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
-                        "<div class=\"panel-body\">" +
-                        "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
-                        "</div>" +
-                        "</div>" +
-                        "</div>" ;
-                    }
-
-                    document.getElementById("event").innerHTML = body;
-                });
-            });
-        };
-    </script>
-
 </body>
 </html>
