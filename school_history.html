@@ -33,6 +33,35 @@
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
         <script src="assets/theme/js/script.js"></script>  
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
     </head>
 <body>
     <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
@@ -235,6 +264,104 @@
                 </div>
 
                 <div class="tabs_item">
+                    <div class="row">
+                        <div class="col-sm-12 col-xl-6 col-md-6 col-lg-6">
+                            <div class="container_Aw" style="width: 100%; margin-left: auto; margin-right: auto;">
+                                <div class="mySlides" style="display: block;">
+                                  <div class="numbertext">1 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">2 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F11-min.jpg?alt=media&token=beec5539-ec07-4dc2-80ee-06a9d1618e63" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">3 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">4 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">5 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">6 / 6</div>
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 6</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 12</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 12</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 12</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">6 / 12</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">12 / 12</div>
+                                      <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%">
+                                </div>
+                              
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xl-6 col-md-6 col-lg-6">
+                            <div class="rows">
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(1)">
+                                </div>
+                                <div class="columns"> 
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F11-min.jpg?alt=media&token=beec5539-ec07-4dc2-80ee-06a9d1618e63" style="width:100%" onclick="currentSlide(2)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(3)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(4)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(5)">
+                                </div> 
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(6)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(7)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(8)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(9)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(10)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(11)">
+                                </div>
+                                <div class="columns">
+                                  <img class="demo cursor" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FAwards%2F1-min.jpg?alt=media&token=201d02ae-cb57-4ddc-b175-7dc2a58bb558" style="width:100%" onclick="currentSlide(12)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <h4>AWARDS</h4>
                     <p>
                         <ol id="prin">
