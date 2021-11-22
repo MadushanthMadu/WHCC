@@ -1,10 +1,15 @@
 [
     {
-        "TITLE":"Sample Title 01.",
-        "DETAILS":"Add Paragraph"
+        "TITLE":"2023 A/L Batch",
+        "DETAILS":"We are happily welcoming our new 2023 A/L Batch Students."
     },
     {
-        "TITLE":"Sample Title 02.",
-        "DETAILS":"Add Paragraph"
+        "TITLE":"New Entrance",
+        "DETAILS":"Our school entrence's in rebuilding contrusction."
+    }
+    ,
+    {
+        "TITLE":"Nationalized",
+        "DETAILS":"Our school has promoted as a Primary National Level School on 2021."
     }
 ]
