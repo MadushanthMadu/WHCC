@@ -1,62 +1,74 @@
 [ 
     { 
+        "YEAR": "2020", 
+        "TOTAL":"97", 
+        "PASS":"83", 
+        "PERCENTAGE":"86%" 
+    },
+    { 
+        "YEAR": "2019", 
+        "TOTAL":"112", 
+        "PASS":"93", 
+        "PERCENTAGE":"83%" 
+    },
+    { 
         "YEAR": "2018", 
-        "TOTAL":"84", 
-        "PASS":"76", 
-        "PERCENTAGE":"91%" 
+        "TOTAL":"85", 
+        "PASS":"79", 
+        "PERCENTAGE":"93%" 
     },
     { 
         "YEAR": "2017", 
-        "TOTAL":"98", 
-        "PASS":"68", 
-        "PERCENTAGE":"70%" 
+        "TOTAL":"99", 
+        "PASS":"95", 
+        "PERCENTAGE":"96%" 
     }, 
     { 
         "YEAR":"2016", 
         "TOTAL":"82", 
-        "PASS":"72", 
-        "PERCENTAGE":"89%" 
+        "PASS":"81", 
+        "PERCENTAGE":"99%" 
     }, 
     { 
         "YEAR":"2015", 
-        "TOTAL":"100",
-        "PASS":"63",
-        "PERCENTAGE":"63%"
+        "TOTAL":"111",
+        "PASS":"83",
+        "PERCENTAGE":"75%"
     }, 
     { 
         "YEAR": "2014", 
-        "TOTAL":"92", 
-        "PASS":"55",
-        "PERCENTAGE":"60%" 
+        "TOTAL":"95", 
+        "PASS":"85",
+        "PERCENTAGE":"89%" 
     }, 
     { 
         "YEAR": "2013", 
-        "TOTAL":"103", 
-        "PASS":"87", 
-        "PERCENTAGE":"84%"
+        "TOTAL":"104", 
+        "PASS":"99", 
+        "PERCENTAGE":"95%"
     }, 
     { 
         "YEAR": "2012", 
-        "TOTAL":"108", 
-        "PASS":"71", 
-        "PERCENTAGE":"66%"
+        "TOTAL":"110", 
+        "PASS":"94", 
+        "PERCENTAGE":"85%"
     }, 
     { 
         "YEAR":"2011", 
-        "TOTAL":"119", 
-        "PASS":"77", 
-        "PERCENTAGE":"65%" 
+        "TOTAL":"116", 
+        "PASS":"90", 
+        "PERCENTAGE":"77%" 
     }, 
     { 
         "YEAR": "2010", 
-        "TOTAL":"133",
-        "PASS":"100", 
-        "PERCENTAGE":"75%" 
+        "TOTAL":"137",
+        "PASS":"119", 
+        "PERCENTAGE":"87%" 
     }, 
     { 
         "YEAR": "2009", 
-        "TOTAL":"140", 
-        "PASS":"87",
-        "PERCENTAGE":"62%" 
+        "TOTAL":"145", 
+        "PASS":"110",
+        "PERCENTAGE":"76%" 
     } 
 ]
