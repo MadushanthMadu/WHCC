@@ -2467,3 +2467,17 @@ div.news_page_02 p#news_details {
 .demo:hover {
   opacity: 1;
 }
+
+.anthem {
+  background-color: #ffffff;
+  color: #520000;
+  font-weight: bold;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.anthem:hover {
+  background-color: #ff5e14;
+  color: #ffffff;
+}
