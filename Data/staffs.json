@@ -1,22 +1,7 @@
 [
     {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2FPrinciple-min.jpg?alt=media&token=41318b01-ff34-4231-8f04-3d462b85ab5d",
-        "NAME":"MR.N.PUWANESHWARARAJA",
-        "GRADE":"S.L.P.S 3"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2FPushparani-min.jpg?alt=media&token=084511d1-6a17-4f8b-a5ad-059c3420cdc2",
-        "NAME":"MRS.V.PUSHPARANI",
-        "GRADE":"S.L.P.S I"
-    },
-    {
         "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F5-min.jpg?alt=media&token=ba0718d7-04a4-4cce-9caf-3833a45fcb6f",
         "NAME":"MRS.R.THAVAMALAR",
-        "GRADE":"S.L.T.S I"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F6-min.jpg?alt=media&token=50ba914e-30b0-4fd3-a6df-fd3b2c93d7cf",
-        "NAME":"MRS.M.RAJENDRAN",
         "GRADE":"S.L.T.S I"
     },
     {
@@ -220,11 +205,6 @@
         "GRADE":"S.L.T.S I"
     },
     {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F59-min.jpg?alt=media&token=74a765f7-fe31-4a2e-a806-f38656b685a9",
-        "NAME":"MRS.N.SUSILA KUMARI",
-        "GRADE":"S.L.T.S I"
-    },
-    {
         "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F60-min.jpg?alt=media&token=63672d78-e578-430a-b864-cca5b47760d2",
         "NAME":"MR.S.URUTHRENTHIRA",
         "GRADE":"S.L.T.S 3-I"
@@ -358,30 +338,5 @@
         "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F0-min.jpg?alt=media&token=5614c908-5397-492e-9ebf-48bf8f5dbadd",
         "NAME":"MISS.REBEKA",
         "GRADE":" "
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F102-min.jpg?alt=media&token=0bd87f4d-d524-4845-8edd-a8778d553535",
-        "NAME":"MRS.N.V.ANOJA PRIYANTHI",
-        "GRADE":"LAB ASSISTANT"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F101-min.jpg?alt=media&token=29736c3f-1e41-41b8-880e-d1f6a9a356df",
-        "NAME":"MR.E.A.H.V.BANDULA",
-        "GRADE":"S.W.ASSISTANT"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F100-min.jpg?alt=media&token=08e06d91-4a91-445a-90b3-36479ca57855",
-        "NAME":"MR.K.R.KAMAL PRIYANTHA",
-        "GRADE":"S.W.ASSISTANT"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2FMiranda-min.jpg?alt=media&token=ad204539-2675-4b26-b45f-48d4ef6bdbd7",
-        "NAME":"MRS.MELANI MIRANDA",
-        "GRADE":"LAB ASSISTANT"
-    },
-    {
-        "IMAGE":"https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FStaffs%2F103-min.jpg?alt=media&token=d4388c63-20c2-4f45-b2cc-d5030cd5b250",
-        "NAME":"MISS.S.SHARMILA",
-        "GRADE":"APPLICATION ASSISTANT"
     }
 ]
