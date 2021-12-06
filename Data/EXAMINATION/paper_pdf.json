@@ -1,0 +1,24 @@
+{
+    "GRADES":[
+        [
+            {
+                "EXAM_PAPER_PDF_TITLE":"PDF 01.",
+                "LINK":"https://www.google.com/"
+            },
+            {
+                "EXAM_PAPER_PDF_TITLE":"PDF 02.",
+                "LINK":"https://www.google.com/"
+            }
+        ],
+        [
+            {
+                "EXAM_PAPER_PDF_TITLE":"PDF 03.",
+                "LINK":"https://www.google.com/"
+            },
+            {
+                "EXAM_PAPER_PDF_TITLE":"PDF 04.",
+                "LINK":"https://www.google.com/"
+            }
+        ]
+    ]
+}
