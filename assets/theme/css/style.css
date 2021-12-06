@@ -20,6 +20,7 @@ section,
 .container-fluid {
   position: relative;
   word-wrap: break-word;
+  padding: 0px;
 }
 
 a.mbr-iconfont:hover {
@@ -890,10 +891,19 @@ blockquote {
     padding-right: 16px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .container-fluid {
     padding-left: 32px;
     padding-right: 32px;
+  }
+  
+  .cid-s48OLK6784 .navbar-dropdown {
+    padding: 0.5rem 1rem;
+  }
+
+  .cid-s48OLK6784 .nav-dropdown .link {
+    padding: 0 0.3em !important;
+    margin: 0.667em 1em !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
