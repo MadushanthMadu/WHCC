@@ -1,6 +1,8 @@
 {
     "VISION":"Producing a noble citizen to the nation who could face the challenges of the modern era with self confidence.",
     "MISSION":"Creating an eminent citizen through the competency based education under the National Educational Goals, fully concerned of ability wisdom trait and creativity gifted with knowledge, skills, attitudes and practice implementing the total curriculum of the school.",
+    "VISIONTAMIL":"Tamil-Vision",
+    "MISSIONTAMIL":"Tamil-Mission",
     "NEWS1_HEADING":"New Entrance",
     "NEWS1_DETAILS":"Our school entrence's in rebuilding contrusction.",
     "NEWS2_HEADING":"Nationalized",
@@ -11,5 +13,6 @@
     "TEACHERS":"70",
     "STAFFS":"05",
     "ABOUT_HEADING":"ABOUT OUR SCHOOL",
-    "ABOUT_DETAILS":"Our Wijayaratnam Hindu Central College (National School) in Negombo as the only Hindu and Tamil language primary national level school in the Gampaha District of the Western Province. Our school was started in 1954 under the name of 'Vivekananda Vidyalaya' with the motto 'Vaiyanthorum Deivam Tholu' by S.K.Wijayaratnam who is the founder of this school. In 1964 an arrangement was made to call it 'Wijayaratnam Maha Vidyalaya'. It was later upgraded in 1993 to 'Wijayaratnam Hindu Central College' and in 2021 It has changed to a only tamil National School in Negombo. Our school, which has grown in this way, is today a 1AB type school where students in the streams of science, commerce and arts are making their mark as professors, teachers, doctors, engineers, scientists and today in the field of technology."
+    "ABOUT_DETAILS":"Our Wijayaratnam Hindu Central College (National School) in Negombo as the only Hindu and Tamil language primary national level school in the Gampaha District of the Western Province. Our school was started in 1954 under the name of 'Vivekananda Vidyalaya' with the motto 'Vaiyanthorum Deivam Tholu' by S.K.Wijayaratnam who is the founder of this school. In 1964 an arrangement was made to call it 'Wijayaratnam Maha Vidyalaya'. It was later upgraded in 1993 to 'Wijayaratnam Hindu Central College' and in 2021 It has changed to a only tamil National School in Negombo. Our school, which has grown in this way, is today a 1AB type school where students in the streams of science, commerce and arts are making their mark as professors, teachers, doctors, engineers, scientists and today in the field of technology.",
+    "ABOUT_DETAILS_T":"Tamil - About"
 }

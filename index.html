@@ -88,6 +88,46 @@
                     });
                 });
             };
+
+            function tamil() {
+                var x = document.getElementsByClassName("visionE")[0];
+                x.outerHTML = "<p class='card-text visionT' id='vision'></p>";
+
+                var x = document.getElementsByClassName("missionE")[0];
+                x.outerHTML = "<p class='card-text missionT' id='mission'></p>";
+
+                var x = document.getElementsByClassName("aboutE")[0];
+                x.outerHTML = "<p id='about_details' class='aboutT' style='margin-bottom: 40px;'></p>";
+
+                fetch("./Data/home.json")
+                .then(response => {
+                    response.json().then(function(result){
+                        document.getElementById("vision").innerHTML = result.VISIONTAMIL;
+                        document.getElementById("mission").innerHTML = result.MISSIONTAMIL;
+                        document.getElementById("about_details").innerHTML = result.ABOUT_DETAILS_T;
+                    });
+                });
+            };
+
+            function english() {
+                var x = document.getElementsByClassName("visionT")[0];
+                x.outerHTML = "<p class='card-text visionE' id='vision'></p>";
+
+                var x = document.getElementsByClassName("missionT")[0];
+                x.outerHTML = "<p class='card-text missionE' id='mission'></p>";
+
+                var x = document.getElementsByClassName("aboutT")[0];
+                x.outerHTML = "<p id='about_details' class='aboutE' style='margin-bottom: 40px;'></p>";
+
+                fetch("./Data/home.json")
+                .then(response => {
+                    response.json().then(function(result){
+                        document.getElementById("vision").innerHTML = result.VISION;
+                        document.getElementById("mission").innerHTML = result.MISSION;
+                        document.getElementById("about_details").innerHTML = result.ABOUT_DETAILS;
+                    });
+                });
+            };
         </script>
     </head>
 <body>
@@ -97,9 +137,18 @@
     </div>
 
     <div class="index" id="body">
-        <!-- <div class="banner">
+        <div class="banner">
             WIJAYARATNAM HINDU CENTRAL COLLEGE
-        </div> -->
+
+            <div class="langbtn">
+                <span type="submit" style="margin-right: 10px;" onclick="tamil()">TAMIL</span>
+                <span type="submit" onclick="english()">ENGLISH</span>
+            </div>
+            <div class="langbtn2">
+                <span type="submit" style="margin-right: 10px;" onclick="tamil()">TAMIL</span>
+                <span type="submit" onclick="english()">ENGLISH</span>
+            </div>
+        </div>
 
         <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
             <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" style="background-color: rgba(255, 255, 255, 0.384);">
@@ -281,7 +330,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <h1 class="card-title">VISION</h1>
-                            <p class="card-text" id="vision"></p>
+                            <p class="card-text visionE" id="vision"></p>
                         </div>
                     </div>
                 </div>
@@ -289,7 +338,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <h1 class="card-title">MISSION</h1>
-                            <p class="card-text" id="mission"></p>
+                            <p class="card-text missionE" id="mission"></p>
                         </div>
                     </div>
                 </div>
@@ -389,8 +438,7 @@
     
             <div class="about text-center">
                 <h1 id="about_heading"></h1>
-
-                <p id="about_details" style="margin-bottom: 40px;"></p>
+                <p id="about_details" class="aboutE" style="margin-bottom: 40px;"></p>
 
                 <p style="color: #FFFFFF; margin-bottom: 0px;">CLICK HERE FOR OUR SCHOOL ANTHEM
                     <a href="https://www.youtube.com/watch?v=BBX0UnYaSRs" target="_blank" class="anthem"><i class="far fa-play-circle align-middle" style="font-size: 40px; line-height: 60px;"></i></a>
