@@ -90,14 +90,41 @@
             };
 
             function tamil() {
+                var x = document.getElementsByClassName("VISIONENG")[0];
+                x.outerHTML = "<h1 class='card-title VISIONTAM'>தூர நோக்கு</h1>";
+
                 var x = document.getElementsByClassName("visionE")[0];
                 x.outerHTML = "<p class='card-text visionT' id='vision'></p>";
+
+                var x = document.getElementsByClassName("MISSIONENG")[0];
+                x.outerHTML = "<h1 class='card-title MISSIONTAM'>பணிக்கூற்று</h1>";
 
                 var x = document.getElementsByClassName("missionE")[0];
                 x.outerHTML = "<p class='card-text missionT' id='mission'></p>";
 
                 var x = document.getElementsByClassName("aboutE")[0];
                 x.outerHTML = "<p id='about_details' class='aboutT' style='margin-bottom: 40px;'></p>";
+                
+                var x = document.getElementsByClassName("clickhere")[0];
+                x.outerHTML = "<p style='color: #FFFFFF; margin-bottom: 0px;' class='clickhereE'>பாடசாலை கீதத்திற்கு<a href='https://www.youtube.com/watch?v=BBX0UnYaSRs' target='_blank' class='anthem'><i class='far fa-play-circle align-middle' style='font-size: 40px; line-height: 60px;'></i></a></p>";
+
+                var x = document.getElementsByClassName("news1h")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news1hT' id='news1_heading_t'></a>";
+
+                var x = document.getElementsByClassName("news1p")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news1pT' id='news1_details_p'></p>";
+
+                var x = document.getElementsByClassName("news2h")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news2hT' id='news2_heading_t'></a>";
+
+                var x = document.getElementsByClassName("news2p")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news2pT' id='news2_details_p'></p>";
+
+                var x = document.getElementsByClassName("news3h")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news3hT' id='news3_heading_t'></a>";
+
+                var x = document.getElementsByClassName("news3p")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news3pT' id='news3_details_p'></p>";
 
                 fetch("./Data/home.json")
                 .then(response => {
@@ -105,19 +132,52 @@
                         document.getElementById("vision").innerHTML = result.VISIONTAMIL;
                         document.getElementById("mission").innerHTML = result.MISSIONTAMIL;
                         document.getElementById("about_details").innerHTML = result.ABOUT_DETAILS_T;
+                        document.getElementById("news1_heading_t").innerHTML = result.NEWS1_HEADING_T;
+                        document.getElementById("news1_details_p").innerHTML = result.NEWS1_DETAILS_T;
+                        document.getElementById("news2_heading_t").innerHTML = result.NEWS2_HEADING_T;
+                        document.getElementById("news2_details_p").innerHTML = result.NEWS2_DETAILS_T;
+                        document.getElementById("news3_heading_t").innerHTML = result.NEWS3_HEADING_T;
+                        document.getElementById("news3_details_p").innerHTML = result.NEWS3_DETAILS_T;
                     });
                 });
             };
 
             function english() {
+                var x = document.getElementsByClassName("VISIONTAM")[0];
+                x.outerHTML = "<h1 class='card-title VISIONENG'>VISION</h1>";
+
                 var x = document.getElementsByClassName("visionT")[0];
                 x.outerHTML = "<p class='card-text visionE' id='vision'></p>";
+
+                var x = document.getElementsByClassName("MISSIONTAM")[0];
+                x.outerHTML = "<h1 class='card-title MISSIONENG'>MISSION</h1>";
 
                 var x = document.getElementsByClassName("missionT")[0];
                 x.outerHTML = "<p class='card-text missionE' id='mission'></p>";
 
                 var x = document.getElementsByClassName("aboutT")[0];
                 x.outerHTML = "<p id='about_details' class='aboutE' style='margin-bottom: 40px;'></p>";
+                
+                var x = document.getElementsByClassName("clickhereE")[0];
+                x.outerHTML = "<p style='color: #FFFFFF; margin-bottom: 0px;' class='clickhere'>CLICK HERE FOR OUR SCHOOL ANTHEM<a href='https://www.youtube.com/watch?v=BBX0UnYaSRs' target='_blank' class='anthem'><i class='far fa-play-circle align-middle' style='font-size: 40px; line-height: 60px;'></i></a></p>";
+                
+                var x = document.getElementsByClassName("news1hT")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news1h' id='news1_heading'></a>";
+
+                var x = document.getElementsByClassName("news1pT")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news1p' id='news1_details'></p>";
+                
+                var x = document.getElementsByClassName("news2hT")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news2h' id='news2_heading'></a>";
+
+                var x = document.getElementsByClassName("news2pT")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news2p' id='news2_details'></p>";
+                
+                var x = document.getElementsByClassName("news3hT")[0];
+                x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news3h' id='news3_heading'></a>";
+
+                var x = document.getElementsByClassName("news3pT")[0];
+                x.outerHTML = "<p class='mbr-text mbr-fonts-style mt-3 display-7 news3p' id='news3_details'></p>";
 
                 fetch("./Data/home.json")
                 .then(response => {
@@ -125,6 +185,12 @@
                         document.getElementById("vision").innerHTML = result.VISION;
                         document.getElementById("mission").innerHTML = result.MISSION;
                         document.getElementById("about_details").innerHTML = result.ABOUT_DETAILS;
+                        document.getElementById("news1_heading").innerHTML = result.NEWS1_HEADING;
+                        document.getElementById("news1_details").innerHTML = result.NEWS1_DETAILS;
+                        document.getElementById("news2_heading").innerHTML = result.NEWS2_HEADING;
+                        document.getElementById("news2_details").innerHTML = result.NEWS2_DETAILS;
+                        document.getElementById("news3_heading").innerHTML = result.NEWS3_HEADING;
+                        document.getElementById("news3_details").innerHTML = result.NEWS3_DETAILS;
                     });
                 });
             };
@@ -329,7 +395,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h1 class="card-title">VISION</h1>
+                            <h1 class="card-title VISIONENG">VISION</h1>
                             <p class="card-text visionE" id="vision"></p>
                         </div>
                     </div>
@@ -337,7 +403,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h1 class="card-title">MISSION</h1>
+                            <h1 class="card-title MISSIONENG">MISSION</h1>
                             <p class="card-text missionE" id="mission"></p>
                         </div>
                     </div>
@@ -358,9 +424,9 @@
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5">
-                                        <a href="news.html"  target="_blank" class="text-black" id="news1_heading"></a>
+                                        <a href="news.html"  target="_blank" class="text-black news1h" id="news1_heading"></a>
                                     </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news1_details"></p>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7 news1p" id="news1_details"></p>
                                 </div>
                                 <div class="mbr-section-btn item-footer mt-2">
                                     <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
@@ -376,9 +442,9 @@
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5">
-                                        <a href="news.html"  target="_blank" class="text-black" id="news2_heading"></a>
+                                        <a href="news.html"  target="_blank" class="text-black news2h" id="news2_heading"></a>
                                     </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news2_details"></p>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7 news2p" id="news2_details"></p>
                                 </div>
                                 <div class="mbr-section-btn item-footer mt-2">
                                     <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
@@ -394,9 +460,9 @@
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title mbr-fonts-style display-5">
-                                        <a href="news.html"  target="_blank" class="text-black" id="news3_heading"></a>
+                                        <a href="news.html"  target="_blank" class="text-black news3h" id="news3_heading"></a>
                                     </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7" id="news3_details"></p>
+                                    <p class="mbr-text mbr-fonts-style mt-3 display-7 news3p" id="news3_details"></p>
                                 </div>
                                 <div class="mbr-section-btn item-footer mt-2">
                                     <a href="news.html" class="btn item-btn readmore display-7" target="_blank">
@@ -440,7 +506,7 @@
                 <h1 id="about_heading"></h1>
                 <p id="about_details" class="aboutE" style="margin-bottom: 40px;"></p>
 
-                <p style="color: #FFFFFF; margin-bottom: 0px;">CLICK HERE FOR OUR SCHOOL ANTHEM
+                <p style="color: #FFFFFF; margin-bottom: 0px;" class="clickhere">CLICK HERE FOR OUR SCHOOL ANTHEM
                     <a href="https://www.youtube.com/watch?v=BBX0UnYaSRs" target="_blank" class="anthem"><i class="far fa-play-circle align-middle" style="font-size: 40px; line-height: 60px;"></i></a>
                 </p>
             </div>

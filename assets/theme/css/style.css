@@ -2581,3 +2581,25 @@ div.news_page_02 p#news_details {
     display: none;
   }
 }
+
+.VISIONTAM,
+.MISSIONTAM {
+  font-size: 28px;
+}
+
+.visionT,
+.missionT {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+}
+
+.news1pT,
+.news2pT,
+.news3pT {
+  font-size: 12.5px !important;
+  color: #5e6569 !important;
+  font-weight: 600;
+  line-height: 17px !important;
+}
