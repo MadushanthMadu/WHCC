@@ -33,38 +33,6 @@
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
         <script src="assets/theme/js/script.js"></script>  
-
-        <script>
-            window.onload = function() {
-                fetch("./Data/prize_day.json")
-                .then(response => {
-                    response.json().then(function(result){
-                        var body = "";
-    
-                        for(let i = 0; i < result.length; i++){
-                            body = body +
-                            "<div class=\"mb-3\">" +
-                            "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
-                            "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
-                            "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
-                            "<strong>" + result[i].SUB_TITLE + "</strong>" +
-                            "<i class=\"fas fa-caret-down\">" + "</i>" +
-                            "</h3>" +
-                            "</a>" +
-                            "</div>" +
-                            "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
-                            "<div class=\"panel-body\">" +
-                            "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
-                            "</div>" +
-                            "</div>" +
-                            "</div>" ;
-                        }
-    
-                        document.getElementById("event").innerHTML = body;
-                    });
-                });
-            };
-        </script>
     </head>
 <body>
     <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
@@ -200,9 +168,9 @@
                     <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FEvents%2Fprize_day-min.jpg?alt=media&token=b2096b8f-a179-43b9-897e-4f5417fa4469" width="75%">
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event">
-                    <!-- <div class="mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_5" aria-expanded="false" aria-controls="collapse1">
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingone">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapseone" data-toggle="collapse" aria-expanded="false" aria-controls="collapseone">
                                 <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
                                     <strong>Annual Awards Ceremony - 2019</strong>
                                     <i class="fas fa-caret-down"></i>
@@ -210,16 +178,16 @@
                             </a>
                         </div>
 
-                        <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapseone" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingone" data-parent="#accordion">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7" id="paragraph">எமது பாடசாலையின் மாணவர்களை மற்றும் ஆசிரியர்களை கௌரவிக்கும் வகையில் நடைபெற்ற பரிசளிப்பு விழா (28.10.2019) புதன்கிழமையன்று நீர்கொழும்பு இந்து இளைஞர் அரங்கிலே, அதிபர் திரு.N.புவனேஸ்வரராஜா அவர்களின் தலைமையில் நடைபெற்றது. இவ்விழாவின் பிரதம விருந்தினராக வைத்திய கலாநிதி பொன்னம்பலம் ஆதித்தன் (MBBS, MRCS, MD Consultant Neurosurgeon Teaching Hospital Jaffna) அவர்கள் கலந்து சிறப்பித்தார்.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_5" aria-expanded="false" aria-controls="collapse1">
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingtwo">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapsetwo" data-toggle="collapse" aria-expanded="false" aria-controls="collapsetwo">
                                 <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
                                     <strong>Annual Awards Ceremony - 2018</strong>
                                     <i class="fas fa-caret-down"></i>
@@ -227,12 +195,46 @@
                             </a>
                         </div>
 
-                        <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapsetwo" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingtwo" data-parent="#accordion">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7" id="paragraph">எமது பாடசாலையின் மாணவர்களை மற்றும் ஆசிரியர்களை கௌரவிக்கும் வகையில் நடைபெற்ற பரிசளிப்பு விழா (28.12.2018) புதன்கிழமையன்று நீர்கொழும்பு இந்து இளைஞர் அரங்கிலே, அதிபர் திரு.N.புவனேஸ்வரராஜா அவர்களின் தலைமையில் நடைபெற்றது. இவ்விழாவின் பிரதம விருந்தினராக பேராசிரியர்.வல்லிபுரம் மகேஸ்வரன் (பேராதனை பல்கலைக்கழகத்தின் தமிழ்த்துறை தலைவர்) அவர்கள் கலந்து சிறப்பித்தார்.</p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingthree">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapsethree" data-toggle="collapse" aria-expanded="false" aria-controls="collapsethree">
+                                <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
+                                    <strong>Annual Awards Ceremony - 2017</strong>
+                                    <i class="fas fa-caret-down"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <div id="collapsethree" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingthree" data-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-7" id="paragraph">எமது பாடசாலையின் மாணவர்களை மற்றும் ஆசிரியர்களை கௌரவிக்கும் வகையில் நடைபெற்ற பரிசளிப்பு விழா (28.10.2017) சனிக்கிழமையன்று நீர்கொழும்பு இந்து இளைஞர் அரங்கிலே, அதிபர் திரு.N.புவனேஸ்வரராஜா அவர்களின் தலைமையில் நடைபெற்றது. இவ்விழாவின் பிரதம விருந்தினராக பேராசிரியர்.T.வேல்நம்பி அவர்கள் கலந்து சிறப்பித்தார்.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingfour">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapsefour" data-toggle="collapse" aria-expanded="false" aria-controls="collapsefour">
+                                <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
+                                    <strong>Annual Awards Ceremony - 2016</strong>
+                                    <i class="fas fa-caret-down"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <div id="collapsefour" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingfour" data-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-7" id="paragraph">எமது பாடசாலையின் மாணவர்களை மற்றும் ஆசிரியர்களை கௌரவிக்கும் வகையில் நடைபெற்ற பரிசளிப்பு விழா (28.12.2016) புதன்கிழமையன்று எமது கல்லூரி மைதானத்தில் நடைபெற்றது. இவ்விழாவின் பிரதம விருந்தினராக பேராசிரியர்.க.தேவராஜா (முன்னாள் பீடாதிபதி முகாமைத்துவ கற்கைகள் வணிகபீடம்-யாழ்ப்பாணப்பல்கலைக்கழகம்) அவர்கள் கலந்து சிறப்பித்தார்.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

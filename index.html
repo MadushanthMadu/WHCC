@@ -90,6 +90,9 @@
             };
 
             function tamil() {
+                var x = document.getElementsByClassName("BannerName")[0];
+                x.outerHTML = "<span class='BannerNameT' style='font-weight: 999; letter-spacing:4px; word-spacing:5px; font-family:Latha, Bamini ,Roboto, Noto;'>விஜயரத்தினம் இந்து மத்திய கல்லூரி</span>";
+
                 var x = document.getElementsByClassName("VISIONENG")[0];
                 x.outerHTML = "<h1 class='card-title VISIONTAM'>தூர நோக்கு</h1>";
 
@@ -106,7 +109,7 @@
                 x.outerHTML = "<p id='about_details' class='aboutT' style='margin-bottom: 40px;'></p>";
                 
                 var x = document.getElementsByClassName("clickhere")[0];
-                x.outerHTML = "<p style='color: #FFFFFF; margin-bottom: 0px;' class='clickhereE'>பாடசாலை கீதத்திற்கு<a href='https://www.youtube.com/watch?v=BBX0UnYaSRs' target='_blank' class='anthem'><i class='far fa-play-circle align-middle' style='font-size: 40px; line-height: 60px;'></i></a></p>";
+                x.outerHTML = "<p style='color: #FFFFFF; margin-bottom: 0px; font-weight:900;' class='clickhereE'>பாடசாலை கீதத்திற்கு<a href='https://www.youtube.com/watch?v=BBX0UnYaSRs' target='_blank' class='anthem'><i class='far fa-play-circle align-middle' style='font-size: 40px; line-height: 60px;'></i></a></p>";
 
                 var x = document.getElementsByClassName("news1h")[0];
                 x.outerHTML = "<a href='news.html'  target='_blank' class='text-black news1hT' id='news1_heading_t'></a>";
@@ -143,6 +146,9 @@
             };
 
             function english() {
+                var x = document.getElementsByClassName("BannerNameT")[0];
+                x.outerHTML = "<span class='BannerName' style='font-weight: 900;'>WIJAYARATNAM HINDU CENTRAL COLLEGE</span>";
+
                 var x = document.getElementsByClassName("VISIONTAM")[0];
                 x.outerHTML = "<h1 class='card-title VISIONENG'>VISION</h1>";
 
@@ -204,7 +210,7 @@
 
     <div class="index" id="body">
         <div class="banner">
-            WIJAYARATNAM HINDU CENTRAL COLLEGE
+            <span class="BannerName" style="font-weight: 900;">WIJAYARATNAM HINDU CENTRAL COLLEGE</span>
 
             <div class="langbtn">
                 <span type="submit" style="margin-right: 10px;" onclick="tamil()">TAMIL</span>

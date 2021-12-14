@@ -33,38 +33,6 @@
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
         <script src="assets/theme/js/script.js"></script>  
-
-        <script>
-            window.onload = function() {
-                fetch("./Data/tamil_day.json")
-                .then(response => {
-                    response.json().then(function(result){
-                        var body = "";
-    
-                        for(let i = 0; i < result.length; i++){
-                            body = body +
-                            "<div class=\"mb-3\">" +
-                            "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
-                            "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
-                            "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
-                            "<strong>" + result[i].SUB_TITLE + "</strong>" +
-                            "<i class=\"fas fa-caret-down\">" + "</i>" +
-                            "</h3>" +
-                            "</a>" +
-                            "</div>" +
-                            "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
-                            "<div class=\"panel-body\">" +
-                            "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
-                            "</div>" +
-                            "</div>" +
-                            "</div>" ;
-                        }
-    
-                        document.getElementById("event").innerHTML = body;
-                    });
-                });
-            };
-        </script>
     </head>
 <body>
     <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
@@ -199,7 +167,24 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 images">
                     <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FEvents%2Ftamil_day-min-min.jpg?alt=media&token=7ed383d4-c602-4e21-a8d0-724db207363c" width="75%">
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event"></div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event">
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingone">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapseone" data-toggle="collapse" aria-expanded="false" aria-controls="collapseone">
+                                <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
+                                    <strong>TAMIL LANGUAGE DAY - COMPETITIONS</strong>
+                                    <i class="fas fa-caret-down"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <div id="collapseone" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingone" data-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-7" id="paragraph">கல்வி அமைச்சின் தமிழ்ப்பிரிவினால் ஒழுங்கு செய்யப்படும் நாடளாவிய போட்டி நிகழ்ச்சியாகும். இதன் போது எம் மாணவர்கள் பேச்சு, கட்டுரை, பாவோதல், தனிநடிப்பு, நாடகம், பண்ணிசை, குழு இசை, தனியிசை, வாசிப்பு, கிராமியப்பாடல், தமிழ்த்தின வினாவிடை போன்ற பலதரப்பட்ட போட்டிகளில் கலந்து கொண்டு தமது திறமைகளை வெளிப்படுத்தி வருகின்றனர். அத்துடன் நீர்கொழும்பு வலய ரீதியாகவும் மேல் மாகாண மட்டத்திலும் பல பாடசாலை முன்னணி வகித்து வருகின்றது. அவ்வாறே ஆண்டு தோறும் அகில இலங்கை ரீதியிலான இடங்களையும் எமது மாணவர்கள் பெற்று வருவது இங்கு குறிப்பிடத்தக்கது.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

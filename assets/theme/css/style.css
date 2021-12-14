@@ -2492,10 +2492,8 @@ div.news_page_02 p#news_details {
 .banner {
   padding: 10px;
   padding-left: 20px;
-  /* padding-right: 20px; */
   background-color: #fff;
   color: #520000;
-  /* font-family:Georgia, 'Times New Roman', Times, serif; */
   font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-weight:900;
   letter-spacing: 5px;
@@ -2602,4 +2600,18 @@ div.news_page_02 p#news_details {
   color: #5e6569 !important;
   font-weight: 600;
   line-height: 17px !important;
+}
+
+.news1hT,
+.news2hT,
+.news3hT {
+  font-size: 22px !important;
+  font-weight: 600;
+  line-height: 5px;
+}
+
+.aboutT {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: normal !important;
 }

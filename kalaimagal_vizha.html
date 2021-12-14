@@ -33,38 +33,6 @@
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>
         <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
         <script src="assets/theme/js/script.js"></script>  
-
-        <script>
-            window.onload = function() {
-                fetch("./Data/kalaimagal_vizha.json")
-                .then(response => {
-                    response.json().then(function(result){
-                        var body = "";
-    
-                        for(let i = 0; i < result.length; i++){
-                            body = body +
-                            "<div class=\"mb-3\">" +
-                            "<div class=\"card-header\" role=\"tab\" id=\"headingOne\">" +
-                            "<a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core=\"\" href=\"#collapse1_5\" aria-expanded=\"false\" aria-controls=\"collapse1\">" +
-                            "<h3 class=\"panel-title-edit mbr-fonts-style mb-0 display-7\"  id=\"subtitle\">" +
-                            "<strong>" + result[i].SUB_TITLE + "</strong>" +
-                            "<i class=\"fas fa-caret-down\">" + "</i>" +
-                            "</h3>" +
-                            "</a>" +
-                            "</div>" +
-                            "<div id=\"collapse1_5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">" +
-                            "<div class=\"panel-body\">" +
-                            "<p class=\"mbr-fonts-style panel-text display-7\" id=\"paragraph\">" + result[i].DETAILS + "</p>" +
-                            "</div>" +
-                            "</div>" +
-                            "</div>" ;
-                        }
-    
-                        document.getElementById("event").innerHTML = body;
-                    });
-                });
-            };
-        </script>
     </head>
 <body>
     <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
@@ -199,7 +167,24 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 images">
                     <img src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FEvents%2Fkalaimagal_vizha-min.jpg?alt=media&token=9476593a-90da-43a5-ac85-a7f0ef8244c7" width="75%">
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event"></div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 details" id="event">
+                    <div class="mb-3" id="accordion">
+                        <div class="card-header" role="tab" id="headingone">
+                            <a role="button" class="collapsed panel-title text-black" data-target="#collapseone" data-toggle="collapse" aria-expanded="false" aria-controls="collapseone">
+                                <h3 class="panel-title-edit mbr-fonts-style mb-0 display-7"  id="subtitle">
+                                    <strong>KALAIMAGAL VIZHA - SUMMARY</strong>
+                                    <i class="fas fa-caret-down"></i>
+                                </h3>
+                            </a>
+                        </div>
+
+                        <div id="collapseone" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingone" data-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-7" id="paragraph">எமது பாடசாலையில் கொண்டாடப்படும் மிகுந்த கலைநயம் மிக்க விழா இதுவாகும். வருடாவருடம் விஜயதசமியன்று சரஸ்வதி பூஜையுடன் 'விஜயசக்தி இந்து மன்றத்தின்' ஏற்பாட்டின் கீழ் சிறப்பாக இடம்பெறும் மாணவர்கள், ஆசிரியர்கள் மற்றும் கலைஞர்களின் பங்களிப்பில் பேச்சு, இசை, நடனம் மற்றும் ஏனைய கலை நிகழ்ச்சிகளுடனும் அலங்காரங்களுடனும் வெகுசிறப்பாக பொன் விழா மண்டபத்தில் சம்பிரதாயபூர்வமாக கொண்டாடப்பட்டு வருகின்றது.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
