@@ -2615,3 +2615,28 @@ div.news_page_02 p#news_details {
   line-height: 18px;
   font-weight: normal !important;
 }
+
+/* #parallax .parallax_card a:first-child {
+  display: block;
+} */
+
+#ict,
+#crist,
+#com {
+  display: block !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #520000;
+  padding: 8px;
+  width: 12%;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+#ict:hover,
+#crist:hover,
+#com:hover {
+  background-color: #ff5e14;
+}
