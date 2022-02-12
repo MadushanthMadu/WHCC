@@ -1539,6 +1539,7 @@ color: #878787;
   font-weight: 700;
   color: white;
   line-height: 22px;
+  font-size: small !important;
 }
 
 div.parallax {
@@ -2622,7 +2623,9 @@ div.news_page_02 p#news_details {
 
 #ict,
 #crist,
-#com {
+#com,
+#english,
+#wijayashakthi {
   display: block !important;
   text-align: center;
   margin-left: auto;
@@ -2637,6 +2640,8 @@ div.news_page_02 p#news_details {
 
 #ict:hover,
 #crist:hover,
-#com:hover {
+#com:hover,
+#english:hover,
+#wijayashakthi:hover {
   background-color: #ff5e14;
 }
