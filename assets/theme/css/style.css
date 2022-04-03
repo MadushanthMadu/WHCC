@@ -1066,6 +1066,7 @@ padding-bottom: 30px;
   font-size: 14px;
   color: #7e7e7e;
   line-height: 28px;
+  font-weight: 500 !important;
 }
 .footer-social-icon span {
 color: #fff;
@@ -2164,10 +2165,10 @@ div.mb-3 div.card-header a h3 i {
 
 .tabs_item p {
   font-weight: 600; 
-  text-align: justify;
+  text-align: left;
   line-height: 22px;
   color: #5c5c5c;
-  font-size: 0.9rem;
+  font-size: 12px;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -2390,13 +2391,13 @@ div.news_page_01 h4#news_title {
 div.news_page_02 h4#news_title {
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 div.news_page_01 p#news_details {
   color: rgb(44, 44, 44);
   margin-bottom: 0px;
-  font-size: small;
+  font-size: 12px;
   font-weight: bold;
   line-height: 18px;
 }
@@ -2588,16 +2589,16 @@ div.news_page_02 p#news_details {
 
 .visionT,
 .missionT {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  line-height: 17px;
+  line-height: 18px;
   text-align: left;
 }
 
 .news1pT,
 .news2pT,
 .news3pT {
-  font-size: 12.5px !important;
+  font-size: 10px !important;
   color: #5e6569 !important;
   font-weight: 600;
   line-height: 17px !important;
@@ -2606,20 +2607,16 @@ div.news_page_02 p#news_details {
 .news1hT,
 .news2hT,
 .news3hT {
-  font-size: 22px !important;
+  font-size: 18px !important;
   font-weight: 600;
   line-height: 5px;
 }
 
 .aboutT {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 18px;
   font-weight: normal !important;
 }
-
-/* #parallax .parallax_card a:first-child {
-  display: block;
-} */
 
 #ict,
 #crist,
