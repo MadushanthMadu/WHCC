@@ -1098,7 +1098,7 @@ background: red;
 color: #fff;
 font-size: 20px;
 font-weight: 600;
-margin-bottom: 40px;
+margin-bottom: 30px;
 position: relative;
 }
 .footer-widget-heading h3::before {
@@ -1113,8 +1113,6 @@ background: #ff5e14;
 .footer-widget ul li {
 display: inline-block;
 float: left;
-/* width:50%; */
-margin-bottom: 12px;
 color: white;
 text-transform: capitalize;
 }
@@ -1224,12 +1222,12 @@ color: #878787;
   }
 
   .footer-section .container .footer-cta .fcm .cta-text {
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0px;
   }
 
   .footer-section .container .footer-cta .fcm .single-cta i {
-    padding-right: 100%;
+    padding-right: 10px;
   }
 
   .footer-section .container {
@@ -2652,4 +2650,16 @@ div.news_page_02 p#news_details {
 #sport:hover,
 #teachers:hover {
   background-color: #ff5e14;
+}
+
+.prg_layout {
+}
+
+.readmoreprg {
+  padding: 30px;
+  font-weight: 600; 
+  text-align: left;
+  line-height: 22px;
+  color: #5c5c5c;
+  font-size: 12px;
 }
