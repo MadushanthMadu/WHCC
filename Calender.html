@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Wijayaratnam Hindu Central College">
+
+        <title>Wijayaratnamhcc.lk</title>
+        <link rel="shortcut icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FLogo%2FLogo-min.png?alt=media&token=f7e8c973-6ec5-4b02-8e59-1557250754f9">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+        <link rel="stylesheet" href="assets/tether/tether.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="assets/dropdown/css/style.css">
+        <link rel="stylesheet" href="assets/socicon/css/styles.css">
+        <link rel="stylesheet" href="assets/theme/css/style.css">
+        <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <script src="assets/web/assets/jquery/jquery.min.js"></script>
+        <script src="assets/popper/popper.min.js"></script>
+        <script src="assets/tether/tether.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/smoothscroll/smooth-scroll.js"></script>
+        <script src="assets/dropdown/js/nav-dropdown.js"></script>
+        <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+        <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+        <script src="assets/theme/js/script.js"></script>
+    </head>
+    <body>
+        <div class="calendar" id="calendar-7" data-mdb-readonly="true"></div>
+
+        <script>
+            const events = [
+            {
+                summary: 'JS Conference',
+                start: {
+                date: Calendar.dayjs().format('DD/MM/YYYY'),
+                },
+                end: {
+                date: Calendar.dayjs().format('DD/MM/YYYY'),
+                },
+                color: {
+                background: '#cfe0fc',
+                foreground: '#0a47a9',
+                },
+            },
+            {
+                summary: 'Vue Meetup',
+                start: {
+                date: Calendar.dayjs().add(1, 'day').format('DD/MM/YYYY'),
+                },
+                end: {
+                date: Calendar.dayjs().add(5, 'day').format('DD/MM/YYYY'),
+                },
+                color: {
+                background: '#ebcdfe',
+                foreground: '#6e02b1',
+                },
+            },
+            {
+                summary: 'Angular Meetup',
+                description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
+                start: {
+                date: Calendar.dayjs().subtract(3, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().subtract(3, 'day').format('DD/MM/YYYY') + ' 10:00',
+                },
+                end: {
+                date: Calendar.dayjs().add(3, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().add(3, 'day').format('DD/MM/YYYY') + ' 14:00',
+                },
+                color: {
+                background: '#c7f5d9',
+                foreground: '#0b4121',
+                },
+            },
+            {
+                summary: 'React Meetup',
+                start: {
+                date: Calendar.dayjs().add(5, 'day').format('DD/MM/YYYY'),
+                },
+                end: {
+                date: Calendar.dayjs().add(8, 'day').format('DD/MM/YYYY'),
+                },
+                color: {
+                background: '#fdd8de',
+                foreground: '#790619',
+                },
+            },
+            {
+                summary: 'Meeting',
+                start: {
+                date: Calendar.dayjs().add(1, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().add(1, 'day').format('DD/MM/YYYY') + ' 8:00',
+                },
+                end: {
+                date: Calendar.dayjs().add(1, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().add(1, 'day').format('DD/MM/YYYY') + ' 12:00',
+                },
+                color: {
+                background: '#cfe0fc',
+                foreground: '#0a47a9',
+                },
+            },
+            {
+                summary: 'Call',
+                start: {
+                date: Calendar.dayjs().add(2, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().add(2, 'day').format('DD/MM/YYYY') + ' 11:00',
+                },
+                end: {
+                date: Calendar.dayjs().add(2, 'day').format('DD/MM/YYYY'),
+                dateTime: Calendar.dayjs().add(2, 'day').format('DD/MM/YYYY') + ' 14:00',
+                },
+                color: {
+                background: '#292929',
+                foreground: '#f5f5f5',
+                },
+            }
+            ];
+
+            const calendarElement = document.getElementById('calendar-7');
+            const calendarInstance = Calendar.getInstance(calendarElement);
+            calendarInstance.addEvents(events);
+        </script>
+    </body>
+</html>

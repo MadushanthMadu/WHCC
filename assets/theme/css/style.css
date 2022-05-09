@@ -2652,9 +2652,6 @@ div.news_page_02 p#news_details {
   background-color: #ff5e14;
 }
 
-.prg_layout {
-}
-
 .readmoreprg {
   padding: 30px;
   font-weight: 600; 
@@ -2662,4 +2659,20 @@ div.news_page_02 p#news_details {
   line-height: 22px;
   color: #5c5c5c;
   font-size: 12px;
+}
+
+#content2-m .container .calender {
+  font-weight: 600;
+  text-decoration: none;
+  color: #520000;
+  background-color: white;
+  /* width: 100%; */
+  padding-left: 10%;
+  padding-right: 10%;
+  /* margin-left: 32%; */
+}
+
+#content2-m .container .calender:hover {
+  color: white;
+  background-color: #ff5e14;
 }
