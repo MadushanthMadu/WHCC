@@ -2666,13 +2666,85 @@ div.news_page_02 p#news_details {
   text-decoration: none;
   color: #520000;
   background-color: white;
-  /* width: 100%; */
   padding-left: 10%;
   padding-right: 10%;
-  /* margin-left: 32%; */
 }
 
 #content2-m .container .calender:hover {
   color: white;
   background-color: #ff5e14;
+}
+
+.up_head {
+  padding-top: 100px;
+}
+
+/* .cal_week {
+  text-align: center;
+  font-size: small;
+  color: rgb(141, 141, 141);
+}
+
+.cal_month {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15pxpx;
+}
+
+.cal_date {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.date_card {
+  background-color: wheat;
+  padding: 15px;
+  margin: 5px;
+} */
+
+.notification {
+  margin: 10px;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.notify {
+  width: 80px;
+  animation: opacity 0.75s ease-in-out infinite;
+}
+
+.notify2 {
+  width: 70px;
+  right: 15px;
+  bottom: 15px;
+  position: fixed;
+  animation: opacity 0.75s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.notify3 {
+  width: 60px;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+}
+
+@keyframes opacity
+{
+  0%
+  {
+    opacity: 0.25;
+  }
+  
+  50%
+  {
+    opacity: 0.75;
+  }
+
+  100%
+  {
+    opacity: 0.25;
+  }
 }
