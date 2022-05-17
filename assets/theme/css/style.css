@@ -13,6 +13,7 @@ body {
   /* color: #232323; */
   position: relative;
   /* height: 200vh; */
+  scroll-behavior: smooth;
 }
 
 section,
@@ -2747,4 +2748,11 @@ div.news_page_02 p#news_details {
   {
     opacity: 0.25;
   }
+}
+
+.Cal-data_months {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
 }
