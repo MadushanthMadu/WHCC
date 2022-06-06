@@ -1153,6 +1153,7 @@ color: #878787;
 
 #about_details {
   color: white;
+  text-align: justify;
   font-weight: 700;
 }
 
@@ -1266,7 +1267,9 @@ color: #878787;
 #phone,
 #fax,
 #mail,
-#address1 {
+#address1,
+#cens,
+#Serial {
   font-weight: bold;
 }
 
@@ -1275,7 +1278,9 @@ color: #878787;
 #mail_address,
 #lane,
 #location,
-#division {
+#division,
+#Serial_number,
+#cens_number {
   color: #323435;
   padding-left: 35px;
 }
@@ -2404,6 +2409,7 @@ div.news_page_01 p#news_details {
   font-size: 12px;
   font-weight: bold;
   line-height: 18px;
+  text-align: justify;
 }
 
 div.news_page_02 p#news_details {
@@ -2412,6 +2418,7 @@ div.news_page_02 p#news_details {
   font-size: small;
   font-weight: bold;
   line-height: 18px;
+  text-align: justify;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */

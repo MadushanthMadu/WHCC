@@ -51,6 +51,10 @@
                         document.getElementById("lane").innerHTML = result.LANE;
                         document.getElementById("location").innerHTML = result.LOCATION;
                         document.getElementById("division").innerHTML = result.DIVISION;
+                        document.getElementById("Serial").innerHTML = result.SERIAL;
+                        document.getElementById("Serial_number").innerHTML = result.SERIAL_NUMBER;
+                        document.getElementById("cens").innerHTML = result.CENS;
+                        document.getElementById("cens_number").innerHTML = result.CENS_NUMBER;
                     });
                 });
             };
@@ -226,6 +230,10 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="connect">
+                        <h4 id="Serial"></h4>
+                        <p id="Serial_number"></p>
+                        <h4 id="cens"></h4>
+                        <p id="cens_number"></p>
                         <h4 id="phone"></h4>
                         <p id="phone_number"></p>
                         <h4 id="fax"></h4>
@@ -336,5 +344,13 @@
             </div>
         </div>
     </footer>
+
+    <div class="notification">
+        <a href="Calender.html" target="_blank">
+            <img class="notify" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FCalender%2FNotify-3-min.png?alt=media&token=29365255-1678-4701-a274-63daf6f218ba">
+            <img class="notify2" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FCalender%2FNotify-2-min.png?alt=media&token=7cda5708-6edb-4f3f-8326-6db56682daa1">
+            <img class="notify3" src="https://firebasestorage.googleapis.com/v0/b/whcc-401cd.appspot.com/o/WHCC%2FCalender%2FNotify-1-min.png?alt=media&token=d4f65a26-2c24-42d1-99cd-054db70e15ab">
+        </a>
+    </div>
 </body>
 </html>
