@@ -1213,11 +1213,15 @@ color: #878787;
   }
 }
 
+.message_heading {
+  margin-top: 125px;
+}
+
 @media (min-width:760px) {
-  .message_heading {
+  /* .message_heading {
     margin-left: 120px;
     margin-right: 120px;
-  }
+  } */
 
   .footer-section .container .footer-cta .fcm {
     padding: 0px;
@@ -2038,28 +2042,30 @@ div.study_tools .row > [class*=col] {
 }
 
 .modal-content {
-  background-color: #520000;
+  background-color: #ffffff;
   border-radius: 15px;
 }
 
 div.modal-content div.modal-header h4.modal-title,
-div.modal-content div.modal-header button.close,
-div.modal-content div.modal-body ul li a {
-  color: white;
+div.modal-content div.modal-header button.close{
+  color: rgb(0, 0, 0);
   font-weight: bold;
+}
+
+div.modal-content div.modal-body div{
+  padding: 0;
+  cursor: pointer;
+  color: white;
+}
+
+div.modal-content div.modal-body div div {
+  margin: 2;
+  padding: 22px;
+  background-color: #520000;
 }
 
 div.modal-content div.modal-body {
   padding: 25px;
-  padding-left: 50px;
-}
-
-div.modal-content div.modal-body ul {
-  color: white;
-}
-
-div.modal-content div.modal-body ul li a:hover {
-  color: #ff5e14;
 }
 
 div.papers .oe,
